@@ -402,7 +402,7 @@ header .banner h2 {
     width: 100%;
     height: 100%;
     line-height: 2.5em;
-    opacity: 0.4;
+    opacity: 1;
     visibility: hidden;
     -webkit-transition: opacity .35s, visibility .35s, width .35s;
     transition: opacity .35s, visibility .35s, width .35s;
@@ -431,7 +431,7 @@ header .banner h2 {
     transition: all .35s ease;
 }
 .overlay.open {
-    opacity: .9;
+    opacity: .99;
     visibility: visible;
     height: 100%;
 }
