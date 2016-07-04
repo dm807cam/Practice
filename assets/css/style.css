@@ -611,8 +611,12 @@ header .banner h2 {
     overflow: hidden;
 }
 .index-wrapper section#timeline article div.notice {
-    background: #fbe9e7 !important;
+    background: #f1f8e9 !important;
 }
+.index-wrapper section#timeline article div.notice:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+}
+
 .index-wrapper section#timeline article div.inner a {
     text-decoration: none;
 }
