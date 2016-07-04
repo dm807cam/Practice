@@ -611,7 +611,8 @@ header .banner h2 {
     overflow: hidden;
 }
 .index-wrapper section#timeline article div.notice {
-    background: #FFDAB9 !important;
+    background: #dd5136 !important;
+    color: #fff !important;
 }
 .index-wrapper section#timeline article div.inner a {
     text-decoration: none;
