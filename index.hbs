@@ -34,6 +34,7 @@
                     <a href="{{url}}">
                         <div class="gradient"></div>
                         <h2>{{{title}}}</h2>
+                        <div class="post-date">{{#if tags}}{{tags separator=", " prefix="Tagged in: "}}{{/if}}</div>
                         <p>{{excerpt words="30"}}...</p>
                     </a>
                 </div>
@@ -51,8 +52,8 @@
                     <span class="month">{{date format="MMM"}}</span>
                     <span class="year">{{date format="YYYY"}}</span>
                     </span>
-                        <div class="post-date">{{#if tags}}{{tags separator=", " prefix="Tagged in: "}}{{/if}}</div>
                         <h2>{{{title}}}</h2>
+                        <div class="post-date">{{#if tags}}{{tags separator=", " prefix="Tagged in: "}}{{/if}}</div>
                         <p>{{content}}...</p>
                 </div>
 
