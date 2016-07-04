@@ -20,6 +20,8 @@ body {
     background: #D6EDFF;
 }
 .gradient {
+  height: 20px;
+  width: 100%;
   background: #34a4ca;
   background: -moz-linear-gradient(-180deg, #34a4ca 0%, #59d7dd 28%, #a8f2f0 59%, #d0f8ef 84%, #d6f6e1 100%);
   background: -webkit-gradient(linear, left , right, color-stop(0%, #34a4ca), color-stop(28%, #59d7dd), color-stop(59%, #a8f2f0), color-stop(84%, #d0f8ef), color-stop(100%, #d6f6e1));
