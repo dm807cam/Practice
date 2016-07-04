@@ -32,7 +32,9 @@
                     </span>
                     <a href="{{url}}">
                         <h2>{{{title}}}</h2>
+                        {{#if image}}
                         <img src={{image}} />
+                        {{/if}    
                         <p>{{excerpt words="30"}}...</p>
                     </a>
                 </div>
