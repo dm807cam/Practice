@@ -22,6 +22,7 @@
 
         <section id="timeline">
             {{#foreach posts}}
+            {{#if featured}}
             <article>
 
                 <div class="inner">
@@ -31,13 +32,32 @@
                     <span class="year">{{date format="YYYY"}}</span>
                     </span>
                     <a href="{{url}}">
-
+                        <span class="gradient"></span>
                         <h2>{{{title}}}</h2>
                         <p>{{excerpt words="30"}}...</p>
                     </a>
                 </div>
 
             </article>
+            {{/if}}
+            {{/foreach}}
+            {{#foreach posts}}
+            {{#unless featured}}
+            <article>
+
+                <div class="inner">
+                    <span class="date">
+        <span class="day">{{date format="DD"}}</span>
+                    <span class="month">{{date format="MMM"}}</span>
+                    <span class="year">{{date format="YYYY"}}</span>
+                    </span>
+                        <div class="post-date">{{#if tags}}{{tags separator=", " prefix="Tagged in: "}}{{/if}}</div>
+                        <h2>{{{title}}}</h2>
+                        <p>{{content}}...</p>
+                </div>
+
+            </article>
+            {{/unless}}
             {{/foreach}}
         </section>
 
