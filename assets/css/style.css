@@ -20,7 +20,7 @@ body {
     background: #D6EDFF;
 }
 .gradient {
-  height: 20px;
+  height: 25px;
   width: 100%;
   background: #34a4ca;
   background: -moz-linear-gradient(-90deg, #34a4ca 0%, #59d7dd 28%, #a8f2f0 59%, #d0f8ef 84%, #d6f6e1 100%);
@@ -676,6 +676,15 @@ header .banner h2 {
     font-size: 1em;
     color: #656565;
     border-radius: 0 0 2px 2px;
+}
+.index-wrapper section#timeline article div.inner .post-date, 
+.index-wrapper section#timeline article div.inner h1,
+.index-wrapper section#timeline article div.inner h3,
+.index-wrapper section#timeline article div.inner h4, 
+.index-wrapper section#timeline article div.inner h5, 
+.index-wrapper section#timeline article div.inner h6 {
+    padding-left: 20px;
+    margin: 0;
 }
 .index-wrapper section#timeline article:nth-child(2n+2) div.inner {
     float: right;
