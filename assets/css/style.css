@@ -610,7 +610,7 @@ header .banner h2 {
     background: #fff;
     overflow: hidden;
 }
-.index-wrapper section#timeline article div.inner .notice {
+.index-wrapper section#timeline article div.notice {
     background: #FFDAB9 !important;
 }
 .index-wrapper section#timeline article div.inner a {
