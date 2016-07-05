@@ -763,8 +763,8 @@ header .banner h2 {
     .index-wrapper section#timeline article div.inner {
         width: 90%;
     }
-    .post-wrapper section#timeline article div.inner .author img {
-        display: none;
+    .post-wrapper section#timeline article div.inner .cover-img, .post-wrapper section#timeline article div.inner img {
+        width: 120%;
     }
 }
 @media screen and (max-width: 600px) {
