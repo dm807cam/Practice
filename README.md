@@ -15,5 +15,5 @@ If you feel like you want to contribute feel free to drop me a message.
 
 ##Release notice
 <code>
-05.07.2016 Release of Practice v.1.0
+01.07.2016 Release of Practice v.1.0
 </code>
