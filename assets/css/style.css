@@ -558,13 +558,9 @@ header .banner h2 {
     color: #9a9a9a;
     margin-bottom: 1.6em;
 }
-.post-wrapper .cover-img {
+.post-wrapper img, .post-wrapper .cover-img {
     width: 105%;
     margin: -20px 0px 20px -20px;
-}
-.post-wrapper img {
-    width: 105%;
-    margin: 20px 0px 20px -20px;
 }
 .index-wrapper {
     margin-top: 6%;
@@ -758,7 +754,7 @@ header .banner h2 {
     .index-wrapper section#timeline article div.inner {
         width: 90%;
     }
-    .post-wrapper section#timeline article div.inner .cover-img, .post-wrapper section#timeline article div.inner img {
+    .post-wrapper img, .post-wrapper .cover-img {
         width: 120%;
     }
 }
@@ -775,7 +771,7 @@ header .banner h2 {
     .post-wrapper section#timeline article div.inner {
         width: 100%;
     }
-    .post-wrapper section#timeline article div.inner .cover-img, .post-wrapper section#timeline article div.inner img {
+    .post-wrapper img, .post-wrapper .cover-img {
         width: 120%;
     }
     header .banner h1 {
