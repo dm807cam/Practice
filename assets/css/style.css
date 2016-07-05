@@ -613,11 +613,6 @@ header .banner h2 {
 .index-wrapper section#timeline article div.inner:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.index-wrapper section#timeline article div.inner img {
-    width: 100%;
-    height: 100%;
-    margin-top: 10px;
-}
 .index-wrapper section#timeline article div.inner span.date {
     display: block;
     width: 60px;
