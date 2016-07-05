@@ -780,6 +780,9 @@ header .banner h2 {
     .post-wrapper section#timeline article div.inner {
         width: 100%;
     }
+    .post-wrapper section#timeline article div.inner .cover-img, .post-wrapper section#timeline article div.inner img {
+        width: 120%;
+    }
     header .banner h1 {
         font-size: 3.8em;
     }
