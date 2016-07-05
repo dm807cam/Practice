@@ -782,3 +782,9 @@ header .banner h2 {
         display: none;
     }
 }
+@media all screen and (max-width: 410px) {
+    .index-wrapper section#timeline article div.inner img,
+    .post-wrapper section#timeline article div.inner {
+        max-width: 410px;
+  }
+}
