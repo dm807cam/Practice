@@ -655,7 +655,7 @@ header .banner h2 {
     border-radius: 0 0 2px 2px;
 }
 .index-wrapper section#timeline article div.inner img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     margin-top: 10px;
 }
