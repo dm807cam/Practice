@@ -786,6 +786,12 @@ header .banner h2 {
     .post-wrapper section#timeline article div.inner {
         width: 100%;
     }
+    header .banner h1 {
+        font-size: 3.8em;
+    }
+    header .banner h2 {
+    font-size: 1em;
+    }
     .social .min-date {
         display: inline-block;
     }
