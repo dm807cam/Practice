@@ -760,7 +760,7 @@ header .banner h2 {
         width: 90%;
     }
     .post-wrapper img, .post-wrapper .cover-img {
-        width: 120%;
+        width: 115%;
     }
 }
 @media screen and (max-width: 600px) {
@@ -777,7 +777,7 @@ header .banner h2 {
         width: 100%;
     }
     .post-wrapper img, .post-wrapper .cover-img {
-        width: 120%;
+        width: 115%;
     }
     header .banner h1 {
         font-size: 3.5em;
