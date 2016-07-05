@@ -13,7 +13,7 @@ Just download an instance of <b>Practice</b> to your ghost's theme folder (you e
 I will continue working on <b>Practice</b> to increase performance and keep it up to date with newer Ghost versions.
 If you feel like you want to contribute feel free to drop me a message.
 
-##Versions
+##Release notice
 <code>
 05.07.2016 Release of Practice v.1.0
 </code>
