@@ -14,6 +14,6 @@ I will continue working on <b>Practice</b> to increase performance and keep it u
 If you feel like you want to contribute feel free to drop me a message.
 
 ##Versions
-<code>
+<code style="width:100%;">
 05.07.2016 Release of Practice v.1.0
 </code>
