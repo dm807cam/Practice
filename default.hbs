@@ -23,8 +23,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700">
     </noscript>
 
-    <script>
-        /*! loadCSS: load a CSS file asynchronously. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT */
+   <script>
+    /*! loadCSS: load a CSS file asynchronously. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT */
 (function(w){
 	"use strict";
 	/* exported loadCSS */
@@ -66,7 +66,7 @@
 		ready( function(){
 			ref.parentNode.insertBefore( ss, ( before ? ref : ref.nextSibling ) );
 		});
-		// A method (exposed on return object for external use) that mimics onload by polling until document.styleSheets until it includes the new sheet.
+		// A method (exposed on return object for external use) that mimics onload by polling document.styleSheets until it includes the new sheet.
 		var onloadcssdefined = function( cb ){
 			var resolvedHref = ss.href;
 			var i = sheets.length;
@@ -103,10 +103,10 @@
 		w.loadCSS = loadCSS;
 	}
 }( typeof global !== "undefined" ? global : this ));
+    </script>   
 
-    </script>
     <script>
-        /*! CSS rel=preload polyfill. Depends on loadCSS function. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT  */
+    *! CSS rel=preload polyfill. Depends on loadCSS function. [c]2016 @scottjehl, Filament Group, Inc. Licensed MIT  */
 (function( w ){
   // rel=preload support test
   if( !w.loadCSS ){
@@ -149,9 +149,8 @@
     }
   }
 }( this ));
-
-    </script>    
-
+    </script>
+    
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset "apple-touch-icon-precomposed.pn "}}">
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}"> 
     
