@@ -417,7 +417,7 @@ header .banner h2 {
     visibility: hidden;
     -webkit-transition: opacity .35s, visibility .35s, width .35s;
     transition: opacity .35s, visibility .35s, width .35s;
-    z-index: 50;
+    z-index: 1000;
 }
 .overlay:before {
     content: '';
