@@ -778,9 +778,7 @@ header .banner h2 {
         float: right;
     }
     .index-wrapper section#timeline:before,
-    .index-wrapper section#timeline article div.inner span.date,
-    .post-wrapper section#timeline:before,
-    .post-wrapper section#timeline article div.inner span.date {
+    .index-wrapper section#timeline article div.inner span.date {
         left: 0%;
         display: none;
     }
