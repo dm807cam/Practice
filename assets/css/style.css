@@ -548,10 +548,6 @@ header .banner h2 {
     color: #9a9a9a;
     margin-bottom: 1.6em;
 }
-.post-wrapper img, .post-wrapper .cover-img {
-    width: 105%;
-    margin: -20px 0px 20px -20px;
-}
 .index-wrapper {
     margin-top: 6%;
     line-height: 1.75em;
@@ -653,11 +649,6 @@ header .banner h2 {
     font-size: 1em;
     color: #656565;
     border-radius: 0 0 2px 2px;
-}
-.index-wrapper section#timeline article div.inner img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 10px;
 }
 .index-wrapper section#timeline article div.inner .post-date, 
 .index-wrapper section#timeline article div.inner h1,
