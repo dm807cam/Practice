@@ -10,7 +10,7 @@ See it in action on my private blog <a href="https://tilligetthere.com" target="
 Just download an instance of <b>Practice</b> to your ghost's theme folder (you eventually will need to restart ghost).
 
 ##Build for Speed and User Experience
-I have designed this theme with as little resources as possible to make it load faster without compromising on user experience.
+I have designed this theme with as little resources as possible to make it load faster but without compromising on user experience.
 ######Google PageSpeed results:
 <ul>
 <li>Mobile: Speed 99/100</li>
