@@ -733,15 +733,20 @@ header .banner h2 {
 .related-posts li a:hover small {
     color: inherit;
 }
+
 /* ============================================
                   FOOTER
 ==============================================*/
+
 footer {
+    font-size: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 80px;
+    margin-top: 60px;
     text-align: center;
+    color: #bbb;
 }
+
 /* ============================================
                MAKE IT RESPONSIVE
 ==============================================*/
