@@ -737,32 +737,10 @@ header .banner h2 {
                   FOOTER
 ==============================================*/
 footer {
-    border-top: 1px solid #eaeaea;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 80px;
-}
-footer .copyright {
-    font-size: 12px;
-    padding-left: 50px;
-    width: 50%;
-    display: inline-block;
-    color: #bbb;
-    letter-spacing: 1px;
-}
-footer .social-media {
-    padding-right: 50px;
-    width: 50%;
-    display: inline-block;
-    text-align: right;
-}
-footer .social-media a {
-    color: #ccc;
-    margin-left: 5px;
-    -webkit-transition: color 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in;
-    -o-transition: color 0.1s ease-in;
-    transition: color 0.1s ease-in;
+    text-align: center;
 }
 /* ============================================
                MAKE IT RESPONSIVE
