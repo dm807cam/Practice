@@ -22,8 +22,10 @@ I have designed this theme with as little resources as possible to make it load 
 I will continue working on <b>Practice</b> to increase performance and keep it up to date with newer Ghost versions.
 If you feel like you want to contribute feel free to drop me a message.
 
-
 ##Release notice
+<code>
+10.07.2016 Added footer section for credits v.1.2
+</code><br>
 <code>
 06.07.2016 PageSpeed optimized v.1.1
 </code><br>
