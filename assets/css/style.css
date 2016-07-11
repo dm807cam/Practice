@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #2E2E2E;
+    color: #3A4145;
     line-height: 1.15em;
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -130,7 +130,7 @@ blockquote small {
     display: inline-block;
     margin: 0.8em 0 0.8em 1.5em;
     font-size: 0.9em;
-    color: #CCC;
+    color: #3A4145;
 }
 blockquote small:before {
     content: "\2014 \00A0";
@@ -338,7 +338,7 @@ header .banner h1 a {
     color: #2E2E36;
 }
 header .banner h2 {
-    color: #3A4145;
+    color: #2E2E36;
     font-size: 1.5em;
     font-style: italic;
     font-weight: 300;
@@ -656,7 +656,7 @@ header .banner h2 {
     padding: 5px 20px 15px 20px;
     margin: 0;
     font-size: 1em;
-    color: #656565;
+    color: #2E2E36;
     border-radius: 0 0 2px 2px;
 }
 .index-wrapper section#timeline article div.inner .post-date,
