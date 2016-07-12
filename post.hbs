@@ -11,7 +11,7 @@
     </div>
   {{#post}} 
     {{#if image}}
-   <section class="banner" role="banner" style="background-image: url('{{image}}');background-size:cover;height:300px;box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);">
+   <section class="banner" role="banner" style="background-image: url('{{image}}');background-size:cover;padding:70px 40px;max-width:850px;height:300px;box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);">
         <a href="{{@blog.url}}"><img style="opacity:0.5; margin-top: 80px" src="{{@blog.logo}}"></a>
     </section>
     {{else}}
