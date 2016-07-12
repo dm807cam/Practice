@@ -353,7 +353,7 @@ header .banner h2 {
     height: 27px;
     width: 35px;
     cursor: pointer;
-    z-index: 100;
+    z-index: 1000;
     -webkit-transition: opacity .25s ease;
     transition: opacity .25s ease;
 }
@@ -403,7 +403,7 @@ header .banner h2 {
     visibility: hidden;
     -webkit-transition: opacity .35s, visibility .35s, width .35s;
     transition: opacity .35s, visibility .35s, width .35s;
-    z-index: 1000;
+    z-index: 100;
 }
 .overlay:before {
     content: '';

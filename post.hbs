@@ -9,15 +9,13 @@
     <div class="overlay" id="overlay">
         {{navigation}}
     </div>
-
-    <section class="banner" role="banner">
+  {{#post}} 
+   <section class="banner" role="banner" {{#if image}} style="background-image: url('{{image}}'); background-size:cover; background-repeat:no-repat;" {{/if}}>
         <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
     </section>
 </header>
 
     <div class="post-wrapper">
-        {{#post}} 
-        {{#if image}}<img class="cover-img" src="{{image}}">{{/if}}
         <h1>{{title}}</h1>
         <div class="post-date">{{date format="MMMM DD, YYYY"}}{{#if tags}} // {{tags separator=", " prefix="Tagged in: "}}{{/if}}</div>
 
