@@ -10,9 +10,16 @@
         {{navigation}}
     </div>
   {{#post}} 
-   <section class="banner" role="banner" {{#if image}} style="background-image: url('{{image}}');background-size:cover;background-repeat:no-repat;box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);" {{/if}}>
-        <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+    {{#if image}}
+   <section class="banner" role="banner" style="background-image: url('{{image}}');background-size:cover;background-color:#1abc9c;background-blend-mode:screen;box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);">
+        <h1 style="mix-blend-mode: multiply;"><a href="{{@blog.url}}">{{title}}</a></h1>
     </section>
+    {{else}}
+    <section class="banner" role="banner">
+        <h1><a href="{{@blog.url}}">{{title}}</a></h1>
+    </section>
+    {{/if}}
+    
 </header>
 
     <div class="post-wrapper">
