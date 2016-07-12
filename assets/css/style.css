@@ -773,7 +773,7 @@ footer {
         width: 115%
     }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     header .banner {
         box-shadow: none;
         border-radius: 0px;
