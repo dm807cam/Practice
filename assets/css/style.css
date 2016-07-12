@@ -365,6 +365,9 @@ header .banner {
     max-width: 850px;
     border-radius: 4px
 }
+header .banner img {
+    margin: 30px;
+}
 header .banner h1 {
     color: #3A4145;
     font-family: 'Dancing Script';
