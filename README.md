@@ -23,9 +23,6 @@ If you feel like you want to contribute feel free to drop me a message.
 
 ##Release notice
 <code>
-12.07.2016 Added post image to post.hbs v.1.3
-</code><br>
-<code>
 10.07.2016 Added footer section for credits v.1.2
 </code><br>
 <code>
