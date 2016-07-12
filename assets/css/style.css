@@ -66,7 +66,11 @@ body {
     font-size: 1.2rem;
     line-height: 1rem;
     color: #3A4145;
+<<<<<<< HEAD
     background: #fcfbf7
+=======
+    background: #eee;
+>>>>>>> parent of 31b8280... css update
 }
 ::-moz-selection {
     background: #D6EDFF
