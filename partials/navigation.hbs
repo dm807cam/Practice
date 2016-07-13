@@ -1,9 +1,9 @@
 <nav class="overlay-menu">
-    <div class="tags">
-			{{#foreach tags}}
-			<a href="{{url}}" target="_blank">{{name}}</a>
-			{{/foreach}}
-	</div>
+    <ul class="tags">
+        {{#foreach tags}}
+            <li><a href="{{url}}">{{name}}</a></li>
+        {{/foreach}}
+    </ul>
     <ul>
         {{#foreach navigation}}
 
