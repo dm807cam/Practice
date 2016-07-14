@@ -701,16 +701,6 @@
  .index-wrapper section#timeline article:nth-child(2n+2) div.inner h2:after {
      left: -5px
  }
-.tags {
-    margin-right: 0px !important;
-    margin: 3px 2px;
-    color: #666 !important;
-    text-transform: none !important;
-}
-.tags:hover {
-    color: #fff !important;
-    background-color: #27ae60;
-}
  .pagination {
      margin: 100px auto;
      border-radius: 50px;
@@ -784,6 +774,9 @@
      .index-wrapper section#timeline article:nth-child(n) div.inner {
          float: right
      }
+     .index-wrapper section#timeline {
+         width: 95%;
+     }
      .index-wrapper section#timeline article div.inner span.date,
      .index-wrapper section#timeline:before {
          left: 0;
@@ -791,7 +784,7 @@
      }
      .index-wrapper section#timeline article div.inner,
      .post-wrapper section#timeline article div.inner {
-         width: 100%
+         width: 100% 
      }
      .post-wrapper .cover-img,
      .post-wrapper img {
