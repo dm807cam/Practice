@@ -570,7 +570,7 @@
  .post-wrapper {
      margin: 6% auto 0;
      background: #fff;
-     padding: 20px;
+     padding: 30px;
      max-width: 840px;
      line-height: 1.75em;
      overflow: hidden
@@ -676,8 +676,8 @@
  }
  .post-wrapper .cover-img,
  .post-wrapper img {
-     width: 105%;
-     margin: -20px 0 20px -20px
+     width: 110%;
+     margin: -20px 0 20px -30px
  }
  .index-wrapper section#timeline article div.inner p {
      padding: 5px 20px 15px;
@@ -788,7 +788,7 @@
      }
      .post-wrapper .cover-img,
      .post-wrapper img {
-         width: 115%
+         width: 130%
      }
      header .banner h1 {
          font-size: 3.5em
