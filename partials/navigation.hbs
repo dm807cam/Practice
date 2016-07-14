@@ -1,16 +1,19 @@
 <nav class="overlay-menu">
-    <!---
-    <ul class="tags">
-        {{#foreach tags}}
-            <li><a href="{{url}}">{{name}}</a></li>
-        {{/foreach}}
-    </ul>
-    -->
     <ul>
         {{#foreach navigation}}
-
-        <li><a href="{{url absolute=" true "}}">{{label}}</a></li>
-
+        <li><a href="{{url absolute="true"}}">{{label}}</a></li>
         {{/foreach}}
     </ul>
 </nav>
+<script>
+  (function() {
+    var cx = '007929547726068567286:kpo5xbo-bwu';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
