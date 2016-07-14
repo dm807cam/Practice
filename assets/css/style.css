@@ -674,7 +674,10 @@
      height: auto;
      margin-top: 10px
  }
- .post-wrapper .cover-img,
+ .post-wrapper .cover-img {
+     width: 110%;
+     margin: -30px 0 20px -30px
+ }
  .post-wrapper img {
      width: 110%;
      margin: -20px 0 20px -30px
