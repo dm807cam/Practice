@@ -26,7 +26,7 @@
             {{#foreach posts}}
             <article>
 
-                <div class="inner-tag">
+                <div class="inner">
                     <span class="date">
                     <span class="day">{{date format="DD"}}</span>
                     <span class="month">{{date format="MMM"}}</span>
@@ -35,6 +35,7 @@
                     <a href="{{url}}">
 
                         <h2>{{{title}}}</h2>
+                        <p>{{excerpt words="30"}}...</p>
                     </a>
                 </div>
 

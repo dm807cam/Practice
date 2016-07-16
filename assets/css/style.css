@@ -698,22 +698,12 @@
      padding-left: 20px;
      margin: 0
  }
- .index-wrapper section#timeline article:nth-child(2n+2) div.inner-tag {
+ .index-wrapper section#timeline article:nth-child(2n+2) div.inner {
      float: right
  }
- .index-wrapper section#timeline article:nth-child(2n+2) div.inner-tag h2:after {
+ .index-wrapper section#timeline article:nth-child(2n+2) div.inner h2:after {
      left: -5px
  }
-.index-wrapper section#timeline article:nth-child(n) div.inner-tag {
-    float: right
-}
-.index-wrapper section#timeline article div.inner span.date,
-.index-wrapper section#timeline:before {
-     left: 0
-     }
-.index-wrapper section#timeline article div.inner-tag {
-     width: 90%
-}
  .pagination {
      margin: 100px auto;
      border-radius: 50px;
