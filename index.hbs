@@ -42,9 +42,7 @@
             </article>
             {{/foreach}}
         </section>
-        
-        <div style="width:100%;text-align:center">
-    <button id="load-posts">Load more posts</button>
-</div>
-        
+        {{#if pagination}}
+            {{> pagination}}
+        {{/if}}
     </div>
