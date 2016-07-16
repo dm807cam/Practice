@@ -42,7 +42,7 @@
             </article>
             {{/foreach}}
         </section>
-
-        {{pagination}}
-
+        {{#if pagination}}
+            {{> pagination}}
+        {{/if}}
     </div>
