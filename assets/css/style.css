@@ -672,7 +672,6 @@
  .index-wrapper section#timeline article div.inner img {
      max-width: 100%;
      height: auto;
-     margin-top: 10px
  }
  .post-wrapper .cover-img {
      width: 110%;
@@ -784,7 +783,7 @@
      }
      .index-wrapper section#timeline article div.inner,
      .post-wrapper section#timeline article div.inner {
-         width: 100% 
+         width: 100%
      }
      .post-wrapper .cover-img,
      .post-wrapper img {
