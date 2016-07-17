@@ -66,7 +66,7 @@
      font-size: 1.2rem;
      line-height: 1rem;
      color: #3A4145;
-     background: #fcfbf7
+     background: #3A4145;
  }
  ::-moz-selection {
      background: #D6EDFF
@@ -363,16 +363,16 @@
      margin: 80px auto
  }
  header .banner h1 {
-     color: #3A4145;
+     color: #fff;
      font-family: 'Dancing Script';
      font-size: 4.85em;
      margin-bottom: 1em
  }
  header .banner h1 a {
-     color: #2E2E36
+     color: #fff
  }
  header .banner h2 {
-     color: #3A4145;
+     color: #fff;
      font-size: 1.5em;
      font-style: italic;
      font-weight: 300;
@@ -409,7 +409,7 @@
      background: #fff
  }
  .button_container span {
-     background: #3A4145;
+     background: #fff;
      border: none;
      height: 5px;
      width: 100%;
@@ -595,9 +595,9 @@
      left: 50%;
      top: 0;
      margin: 0 0 0 -1px;
-     width: 2px;
+     width: 4px;
      height: 100%;
-     background: #3A4145
+     background: rgba(255,255,255,0.8)
  }
  .index-wrapper section#timeline article {
      width: 100%;
