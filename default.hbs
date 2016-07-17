@@ -170,10 +170,11 @@
     {{ghost_footer}}
     
     <script src="{{asset "js/jquery.min.js"}}"></script>
+    <script type="text/javascript" src="{{asset "js/infinitescroll.js"}}"></script>
     <script>
     var max_pages = parseInt('{{pagination.pages}}');
     </script>
-    <script type="text/javascript" src="{{asset "js/infinitescroll.js"}}"></script>
+    
     <script>
         $('#toggle').click(function() {
             $(this).toggleClass('active');
