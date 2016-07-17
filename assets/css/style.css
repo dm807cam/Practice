@@ -597,7 +597,7 @@
      margin: 0 0 0 -1px;
      width: 4px;
      height: 100%;
-     background: rgba(255,255,255,0.8)
+     background: rgba(255,255,255,0.6)
  }
  .index-wrapper section#timeline article {
      width: 100%;
@@ -726,13 +726,17 @@
      margin: 0 auto;
      padding: 40px 20px
  }
+.related h3 {
+    color: #fff;
+}
  .related-posts {
      padding-left: 0;
      list-style: none;
      margin-left: 30px
  }
- .related-posts h3 {
-     margin-top: 0
+ .related-posts h5, .related-posts h5 a, .related-posts h5:hover {
+     margin-top: 0;
+     color: #fff;
  }
  .related-posts li small {
      font-size: .8em;
@@ -745,13 +749,14 @@
  .related-posts li a:hover small {
      color: inherit
  }
- footer {
+ footer, footer a {
      font-size: 12px;
-     color: #bbb;
+     color: #fff;
      text-align: center;
      padding-top: 20px;
      padding-bottom: 20px;
-     margin-top: 60px
+     margin-top: 60px;
+     text-decoration: none;
  }
  @media screen and (max-width:1000px) {
      .index-wrapper section#timeline article:nth-child(n) div.inner {
