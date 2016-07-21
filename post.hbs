@@ -1,5 +1,5 @@
 {{!< default}} 
-<header>
+<header style="background: url('{{@blog.cover}}');background-size:cover;background-attachment:fixed;">
     <div class="button_container" id="toggle">
         <span class="top"></span>
         <span class="middle"></span>
@@ -24,7 +24,7 @@
         {{content}}
         
         <hr />
-        
+        {{^is page}}
         <div class="related">
         <h3>Related Posts</h3>
         <ul class="related-posts">
@@ -50,7 +50,7 @@
             {{/prev_post}}
         </ul>
     </div>
-        
+    {{/is}}
         <hr />
         
         <div id="disqus_thread"></div>
