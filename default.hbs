@@ -23,11 +23,11 @@
     {{ghost_head}}
 
 </head>
-{{#if home}}
+{{#is home}}
 <body style="background: url('{{@blog.cover}}');background-size:cover;background-attachment:fixed;">
 {{else}}
 <body>
-{{/if}}
+{{/is}}
     
     {{{body}}}
 
