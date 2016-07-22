@@ -24,34 +24,6 @@
         {{content}}
         
         <hr />
-        {{^is page}}
-        <div class="related">
-        <h3>Related Posts</h3>
-        <ul class="related-posts">
-            {{#next_post}}
-            <li>
-                <h5>
-                    <a href="{{url}}">
-                    {{title}}
-                    <small>{{date format="MMMM DD, YYYY"}}</small>
-                    </a>
-                </h5>
-            </li>
-            {{/next_post}} 
-            {{#prev_post}}
-            <li>
-                <h5>
-                    <a href="{{url}}">
-                    {{title}}
-                    <small>{{date format="MMMM DD, YYYY"}}</small>
-                    </a>
-                </h5>
-            </li>
-            {{/prev_post}}
-        </ul>
-    </div>
-    {{/is}}
-        <hr />
         
         <div id="disqus_thread"></div>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
