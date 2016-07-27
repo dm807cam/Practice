@@ -8,55 +8,55 @@
      font-family: Lora, Helvetica, Arial, sans-serif;
  }
  a {
-    background-color: transparent;
-    color: #337ab7;
-    text-decoration: none;
-}
-a:focus,
-a:hover {
-    color: #23527c;
-    text-decoration: underline;
-}
-h1,
-h2,
-h3,
-h4 {
-    font-family: inherit;
-    line-height: 1.1;
-    color: inherit;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-h1 {
-    font-size: 36px;
-    font-weight: 700;
-}
-h2 {
-    font-size: 28px;
-    font-weight: 700;
-}
-h3 {
-    font-size: 24px;
-    font-weight: 500;
-}
-h4 {
-    font-size: 18px;
-    font-weight: 500;
-}
-p {
-    margin: 0 5px 20px;
-}
-hr {
-    height: 1px;
-    background: #E2E9ED;
-    border: none;
-    width: 50%;
-    margin: 40px auto;
-}
-a:active,
-a:hover {
-    outline: 0;
-}
+     background-color: transparent;
+     color: #337ab7;
+     text-decoration: none;
+ }
+ a:focus,
+ a:hover {
+     color: #23527c;
+     text-decoration: none;
+ }
+ h1,
+ h2,
+ h3,
+ h4 {
+     font-family: inherit;
+     line-height: 1.1;
+     color: inherit;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ h1 {
+     font-size: 36px;
+     font-weight: 700;
+ }
+ h2 {
+     font-size: 28px;
+     font-weight: 700;
+ }
+ h3 {
+     font-size: 24px;
+     font-weight: 500;
+ }
+ h4 {
+     font-size: 18px;
+     font-weight: 500;
+ }
+ p {
+     margin: 0 5px 20px;
+ }
+ hr {
+     height: 1px;
+     background: #E2E9ED;
+     border: none;
+     width: 50%;
+     margin: 40px auto;
+ }
+ a:active,
+ a:hover {
+     outline: 0;
+ }
  blockquote {
      box-sizing: border-box;
      margin: 1.75em 0;
@@ -149,10 +149,21 @@ a:hover {
      margin: 0 auto;
      width: 50%
  }
+ .button_container_home {
+     position: fixed;
+     top: 5%;
+     right: 90%;
+     height: 27px;
+     width: 35px;
+     cursor: pointer;
+     z-index: 1000;
+     -webkit-transition: opacity .25s ease;
+     transition: opacity .25s ease
+ }
  .button_container {
      position: fixed;
      top: 5%;
-     right: 2%;
+     right: 10%;
      height: 27px;
      width: 35px;
      cursor: pointer;
@@ -366,7 +377,7 @@ a:hover {
      margin: 0 0 0 -1px;
      width: 4px;
      height: 100%;
-     background: rgba(255,255,255,0.6)
+     background: rgba(255, 255, 255, 0.6)
  }
  .index-wrapper section#timeline article {
      width: 100%;
@@ -511,7 +522,8 @@ a:hover {
  .related-posts li a:hover small {
      color: inherit
  }
- footer, footer a {
+ footer,
+ footer a {
      font-size: 12px;
      color: #fff;
      text-align: center;
