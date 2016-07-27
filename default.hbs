@@ -30,9 +30,14 @@
     
     {{ghost_footer}}
     
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="{{asset "js/script.min.js"}}"></script>
-   
+    <script src="{{asset "js/jquery.min.js"}}"></script>
+    <script>
+        $('#toggle').click(function() {
+            $(this).toggleClass('active');
+            $('#overlay').toggleClass('open');
+        });
+
+    </script>
     <script>
     (function() {  // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
