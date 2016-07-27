@@ -122,77 +122,17 @@
  button {
      display: inline-block
  }
-.container {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-  overflow-y: hidden;
-}
-.container header.menu-open {
-  position: relative;
-  /*right:230px;*/
-  -webkit-transform: translate(-230px, 0);
-  -moz-transform: translate(-230px, 0);
-  -o-transform: translate(-230px, 0);
-  -ms-transform: translate(-230px, 0);
-  transform: translate(-230px, 0);
-  /*      .animation( open 0.6s linear once); */
-  overflow-y: visible;
-}
-.container header #nav {
+
+header #nav {
   height: 50px;
   text-align: center;
   margin: 0;
   padding: 25px 0 0;
 }
-.container header #nav.open .bars .bar1 {
-  -webkit-transform: rotate(45deg) translate(8px, 7px);
-  -moz-transform: rotate(45deg) translate(8px, 7px);
-  -o-transform: rotate(45deg) translate(8px, 7px);
-  -ms-transform: rotate(45deg) translate(8px, 7px);
-  transform: rotate(45deg) translate(8px, 7px);
-}
-.container header #nav.open .bars .bar2 {
-  opacity: 0;
-}
-.container header #nav.open .bars .bar3 {
-  -webkit-transform: rotate(-45deg) translate(7px, -6px);
-  -moz-transform: rotate(-45deg) translate(7px, -6px);
-  -o-transform: rotate(-45deg) translate(7px, -6px);
-  -ms-transform: rotate(-45deg) translate(7px, -6px);
-  transform: rotate(-45deg) translate(7px, -6px);
-}
-.container header #nav li {
+header #nav li {
   display: inline-block;
 }
-.container header #nav li.bars {
-  display: none;
-  position: absolute;
-  left: -55px;
-  top: 0;
-  cursor: pointer;
-  background: rgba(0, 0, 0, 0.6);
-  padding: 15px 15px 10px;
-}
-.container header #nav li.bars .bar1,
-.container header #nav li.bars .bar2,
-.container header #nav li.bars .bar3 {
-  width: 25px;
-  height: 2px;
-  background: #FFF;
-  margin-bottom: 8px;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
-}
-.container header #nav li a {
+header #nav li a {
   display: block;
   color: #fff;
   font-size: 18px;
@@ -204,7 +144,7 @@
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-.container header #nav li a:hover {
+header #nav li a:hover {
   border: 2px solid #fff;
 }
  header {
