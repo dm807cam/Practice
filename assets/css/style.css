@@ -5,164 +5,58 @@
  h4,
  h5,
  h6 {
-     font-family: "Open Sans", sans-serif
- }
- dl,
- h1,
- h2,
- h3,
- h4,
- h5,
- h6,
- ol,
- p,
- ul {
-     text-rendering: geometricPrecision
- }
- dl dd,
- dl dt {
-     margin-bottom: 1em
- }
- blockquote,
- pre {
-     -moz-box-sizing: border-box
- }
- blockquote cite,
- dl dt {
-     font-weight: 700
- }
- dl,
- ol,
- p,
- pre,
- ul {
-     margin: 0 0 1.75em
- }
- blockquote small,
- kbd {
-     display: inline-block
- }
- pre,
- table {
-     width: 100%
- }
- .index-wrapper section#timeline article div.inner a,
- .overlay ul li a,
- .pagination a,
- .related-posts li a,
- button,
- header .banner h1 a {
-     text-decoration: none
- }
- body,
- html {
-     margin: 0;
-     padding: 0
- }
- body {
-     height: 100%;
-     max-height: 100%;
-     letter-spacing: .03rem;
-     font-size: 1.2rem;
-     line-height: 1rem;
-     color: #3A4145;
-     background: #3A4145;
- }
- ::-moz-selection {
-     background: #D6EDFF
- }
- ::selection {
-     background: #D6EDFF
- }
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
-     color: #2E2E2E;
-     line-height: 1.15em;
-     margin: 0
- }
- code,
- pre,
- tt {
-     font-family: Inconsolata, monospace, sans-serif;
-     background: #F7FAFB
- }
- h1 {
-     font-size: 2.5rem;
-     letter-spacing: -2px
- }
- h2 {
-     font-size: 2.2rem;
-     letter-spacing: -1px
- }
- h3 {
-     font-size: 2rem;
-     letter-spacing: -.6px
- }
- h4 {
-     font-size: 1.5rem
- }
- h5 {
-     font-size: 1.4rem
- }
- h6 {
-     font-size: 1.2rem
+     font-family: Lora, Helvetica, Arial, sans-serif;
  }
  a {
-     color: #4A4A4A;
-     transition: color .3s ease
- }
- a:hover {
-     color: #268bd2
- }
- dl,
- ol,
- p,
- ul {
-     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
-     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1
- }
- ol,
- ul {
-     padding-left: 3rem
- }
- ol ol,
- ol ul,
- ul ol,
- ul ul {
-     margin: 0 0 .4em;
-     padding-left: 2em
- }
- dl dt {
-     float: left;
-     width: 180px;
-     overflow: hidden;
-     clear: left;
-     text-align: right;
-     text-overflow: ellipsis;
-     white-space: nowrap
- }
- dl dd {
-     margin-left: 200px
- }
- li {
-     margin: .4em 0
- }
- li li {
-     margin: 0
- }
- hr {
-     display: block;
-     height: 1px;
-     border: 0;
-     border-top: #EFEFEF 1px solid;
-     margin: 3.2em 0;
-     padding: 0
- }
+    background-color: transparent;
+    color: #337ab7;
+    text-decoration: none;
+}
+a:focus,
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: inherit;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+p {
+    margin: 0 5px 20px;
+}
+hr {
+    height: 1px;
+    background: #E2E9ED;
+    border: none;
+    width: 50%;
+    margin: 40px auto;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
  blockquote {
      box-sizing: border-box;
      margin: 1.75em 0;
@@ -177,62 +71,6 @@
      margin: .8em 0 .8em 1.5em;
      font-size: .9em;
      color: #CCC
- }
- blockquote small:before {
-     content: "\2014 \00A0"
- }
- blockquote cite a {
-     font-weight: 400
- }
- mark {
-     background-color: #fdffb6
- }
- code,
- tt {
-     padding: 1px 3px;
-     font-size: .85em;
-     white-space: pre-wrap;
-     border: 1px solid #E3EDF3;
-     border-radius: 2px;
-     -webkit-font-feature-settings: "liga" 0;
-     -moz-font-feature-settings: "liga" 0;
-     font-feature-settings: "liga" 0
- }
- pre {
-     box-sizing: border-box;
-     border: 1px solid #E3EDF3;
-     padding: 10px;
-     font-size: .9em;
-     white-space: pre;
-     overflow: auto;
-     border-radius: 3px
- }
- button,
- input,
- select,
- textarea {
-     outline: 0;
-     font-family: 'Open Sans', sans-serif
- }
- pre code,
- pre tt {
-     font-size: inherit;
-     white-space: pre-wrap;
-     background: 0 0;
-     border: none;
-     padding: 0
- }
- kbd {
-     margin-bottom: .4em;
-     padding: 1px 8px;
-     border: 1px solid #CCC;
-     color: #666;
-     text-shadow: #FFF 0 1px 0;
-     font-size: .9em;
-     font-weight: 700;
-     background: #F4F4F4;
-     border-radius: 4px;
-     box-shadow: 0 1px 0 rgba(0, 0, 0, .2), 0 1px 0 0 #fff inset
  }
  table {
      -moz-box-sizing: border-box;
@@ -280,78 +118,9 @@
  table.plain tbody>tr:nth-child(odd)>th {
      background: 0 0
  }
- .fluid-width-video-wrapper,
- iframe {
-     display: block;
-     margin: 1.75em 0
- }
  .overlay ul,
  button {
      display: inline-block
- }
- .fluid-width-video-wrapper iframe {
-     margin: 0
- }
- input,
- select,
- textarea {
-     width: 260px;
-     padding: 6px 9px;
-     margin: 0 0 5px;
-     font-size: 1.6rem;
-     font-weight: 100;
-     line-height: 1.4em;
-     background: #fff;
-     border: 1px solid #e7eef2;
-     border-radius: 4px;
-     box-shadow: none;
-     -webkit-appearance: none
- }
- textarea {
-     width: 100%;
-     max-width: 340px;
-     min-width: 250px;
-     height: auto;
-     min-height: 80px
- }
- input[type=tel]:focus,
- input[type=url]:focus,
- input[type=password]:focus,
- input[type=number]:focus,
- input[type=date]:focus,
- input[type=month]:focus,
- input[type=week]:focus,
- input[type=time]:focus,
- input[type=datetime]:focus,
- input[type=datetime-local]:focus,
- input[type=text]:focus,
- input[type=email]:focus,
- input[type=search]:focus,
- textarea:focus {
-     border: 1px solid #bbc7cc;
-     background: #fff;
-     outline: 0
- }
- select {
-     width: 270px;
-     height: 30px;
-     line-height: 30px
- }
- button {
-     min-height: 35px;
-     width: auto;
-     padding: .1rem 1.5rem;
-     cursor: pointer;
-     color: #fff;
-     font-size: 11px;
-     line-height: 13px;
-     font-weight: 300;
-     letter-spacing: 1px;
-     text-transform: uppercase;
-     text-shadow: none;
-     border-radius: .3rem;
-     border: .1em solid rgba(0, 0, 0, .05);
-     background: #5ba4e5
  }
  header {
      color: #3A4145;
