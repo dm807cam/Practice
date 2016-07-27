@@ -149,17 +149,7 @@
      margin: 0 auto;
      width: 50%
  }
- .button_container_home {
-     position: fixed;
-     top: 5%;
-     right: 90%;
-     height: 27px;
-     width: 35px;
-     cursor: pointer;
-     z-index: 1000;
-     -webkit-transition: opacity .25s ease;
-     transition: opacity .25s ease
- }
+
  .button_container {
      position: fixed;
      top: 5%;
@@ -522,6 +512,32 @@
  .related-posts li a:hover small {
      color: inherit
  }
+.box {
+    background: #F2F2F2;
+    width: 70%;
+    text-align: center;
+    margin: 80px auto 0 auto;
+    border: #E2E9ED solid 1px;
+}
+.author {
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+    top: -50px;
+}
+.next,
+.prev {
+    font-size: 1.2em;
+}
+.more-posts {
+    position: relative;
+    top: -25px;
+}
+.more-posts p {
+    margin: 10px;
+}
  footer,
  footer a {
      font-size: 12px;
