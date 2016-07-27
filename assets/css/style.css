@@ -138,7 +138,8 @@
      margin-bottom: 1em
  }
  header .banner h1 a {
-     color: #fff
+     color: #fff;
+     text-shadow: 1px 1px 2px #222;
  }
  header .banner h2 {
      color: #fff;
@@ -147,9 +148,9 @@
      font-weight: 300;
      line-height: 1.5;
      margin: 0 auto;
-     width: 50%
+     width: 50%;
+     text-shadow: 1px 1px 2px #222;
  }
-
  .button_container {
      position: fixed;
      top: 5%;
@@ -512,32 +513,32 @@
  .related-posts li a:hover small {
      color: inherit
  }
-.box {
-    background: #F2F2F2;
-    width: 70%;
-    text-align: center;
-    margin: 80px auto 0 auto;
-    border: #E2E9ED solid 1px;
-}
-.author {
-    position: relative;
-    margin: 0 auto;
-    width: 100px!important;
-    height: auto;
-    border-radius: 100%;
-    top: -30px;
-}
-.next,
-.prev {
-    font-size: 1.2em;
-}
-.more-posts {
-    position: relative;
-    top: -25px;
-}
-.more-posts p {
-    margin: 10px;
-}
+ .box {
+     background: #F2F2F2;
+     width: 70%;
+     text-align: center;
+     margin: 80px auto 0 auto;
+     border: #E2E9ED solid 1px;
+ }
+ .author {
+     position: relative;
+     margin: 0 auto!important;
+     width: 100px!important;
+     height: auto;
+     border-radius: 100%;
+     top: -50px;
+ }
+ .next,
+ .prev {
+     font-size: 1.2em;
+ }
+ .more-posts {
+     position: relative;
+     top: -25px;
+ }
+ .more-posts p {
+     margin: 10px;
+ }
  footer,
  footer a {
      font-size: 12px;

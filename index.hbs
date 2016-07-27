@@ -11,12 +11,8 @@
     </div>
 
     <section class="banner" role="banner">
-        {{#if @blog.logo}}
-        <a href="{{@blog.url}}"><img src="{{@blog.logo}}"></a>
-        {{else}}
         <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
         <h2>{{@blog.description}}</h2>
-        {{/if}}
     </section>
 </header>
 
