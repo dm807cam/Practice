@@ -146,6 +146,7 @@ header #nav li a {
 }
 header #nav li a:hover {
   border: 2px solid #fff;
+    border-radius: 5px;
 }
  header {
      color: #3A4145;
