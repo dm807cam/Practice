@@ -449,7 +449,7 @@
  }
  .post-wrapper img {
      width: 110%;
-     margin: -20px 0 20px -30px
+     margin: -20px 0 20px -40px;
  }
  .index-wrapper section#timeline article div.inner p {
      padding: 5px 20px 15px;
@@ -475,7 +475,7 @@
  }
  .pagination {
      margin: 100px auto;
-     border-radius: 50px;
+     border-radius: 5px;
      padding: 15px;
      color: rgba(0, 0, 0, .5);
      max-width: 200px
@@ -522,10 +522,10 @@
 .author {
     position: relative;
     margin: 0 auto;
-    width: 100px;
+    width: 100px!important;
     height: auto;
     border-radius: 100%;
-    top: -50px;
+    top: -30px;
 }
 .next,
 .prev {
