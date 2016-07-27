@@ -1,16 +1,8 @@
-<nav class="overlay-menu">
-    <ul>
-        {{#foreach navigation}}
-        <li><a href="{{url absolute="true"}}">{{label}}</a></li>
-        {{/foreach}}
-    </ul>
-</nav>
-
-<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
-	<button class="dl-trigger">Open Menu</button>
-	<ul class="dl-menu">
-        {{#foreach navigation}}
-		<li><a href="{{url absolute="true"}}">{{label}}</a></li>
-        {{/foreach}}
-	</ul><!-- /.dl-menu -->
-</nav><!-- /.dl-menuwrapper -->
+<ul id="nav">
+    <li class="bars">
+      <div class="bar1"></div><div class="bar2"></div><div class="bar3"></div>
+    </li>
+     {{#foreach navigation}}
+     <li><a href="{{url absolute=" true "}}">{{label}}</a></li>
+    {{/foreach}}
+</ul>
