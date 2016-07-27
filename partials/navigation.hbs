@@ -5,3 +5,12 @@
         {{/foreach}}
     </ul>
 </nav>
+
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+        {{#foreach navigation}}
+		<li><a href="{{url absolute="true"}}">{{label}}</a></li>
+        {{/foreach}}
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
