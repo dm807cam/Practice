@@ -29,13 +29,14 @@
     </footer>
     {{ghost_footer}}
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
     <script>
     $(function () {
-    $("div").slice(0, 4).show();
+    $("article").slice(0, 4).show();
     $("#loadMore").on('click', function (e) {
         e.preventDefault();
-        $("div:hidden").slice(0, 4).slideDown();
-        if ($("div:hidden").length == 0) {
+        $("article:hidden").slice(0, 4).slideDown();
+        if ($("article:hidden").length == 0) {
             $("#load").fadeOut('slow');
         }
         $('html,body').animate({

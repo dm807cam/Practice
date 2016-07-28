@@ -246,8 +246,7 @@
  .index-wrapper section#timeline {
      width: 80%;
      margin: 20px auto;
-     position: relative;
-    display:none;     
+     position: relative;   
  }
  .index-wrapper section#timeline:before {
      content: '';
@@ -263,7 +262,8 @@
  .index-wrapper section#timeline article {
      width: 100%;
      margin: 0 0 20px;
-     position: relative
+     position: relative;
+     display:none;  
  }
  .index-wrapper section#timeline article:after {
      content: '';
