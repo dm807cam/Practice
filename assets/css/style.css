@@ -246,7 +246,8 @@
  .index-wrapper section#timeline {
      width: 80%;
      margin: 20px auto;
-     position: relative
+     position: relative;
+    display:none;     
  }
  .index-wrapper section#timeline:before {
      content: '';
