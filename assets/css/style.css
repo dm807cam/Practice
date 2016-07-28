@@ -364,17 +364,21 @@
  .index-wrapper section#timeline article:nth-child(2n+2) div.inner h2:after {
      left: -5px
  }
+.totop, .totop a {
+    position: fixed;
+    text-align:center;
+    color: #fff;
+}
  .pagination {
      margin: 100px auto;
      border-radius: 5px;
      padding: 15px;
      color: rgba(0, 0, 0, .5);
-     max-width: 200px
  }
  .pagination a {
      display: inline-block;
      color: #3A4145;
-     font-size: 1.5em
+     font-size: 1em
  }
  .older-posts {
      margin: 0 0 0 15px
