@@ -24,9 +24,6 @@
     
     {{{body}}}
 
-    <p class="totop"> 
-    <a href="#top">Back to top</a> 
-</p>
     <footer>
         Theme by <a href="https://github.com/Dennis-Mayk/Practice/">Dennis</a> // Logo by <a href="https://thenounproject.com/mockturtle/">Sergey Demushkin</a>
     </footer>
@@ -42,26 +39,6 @@
         if ($("article:hidden").length == 0) {
             $("#load").fadeOut('slow');
         }
-        $('html,body').animate({
-            scrollTop: $(this).offset().top
-        }, 1500);
-    });
-});
-
-$('a[href=#top]').click(function () {
-    $('body,html').animate({
-        scrollTop: 0
-    }, 600);
-    return false;
-});
-
-$(window).scroll(function () {
-    if ($(this).scrollTop() > 50) {
-        $('.totop a').fadeIn();
-    } else {
-        $('.totop a').fadeOut();
-    }
-});
     </script>
     <script>
     (function() {  // DON'T EDIT BELOW THIS LINE
