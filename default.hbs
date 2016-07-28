@@ -28,7 +28,18 @@
         Theme by <a href="https://github.com/Dennis-Mayk/Practice/">Dennis</a> // Logo by <a href="https://thenounproject.com/mockturtle/">Sergey Demushkin</a>
     </footer>
     {{ghost_footer}}
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+    $(document).ready(function () {
+    size_li = $("#timeline article").size();
+    x=3;
+    $('#timeline article:lt('+x+')').show();
+    $('#loadMore').click(function () {
+        x= (x+5 <= size_li) ? x+5 : size_li;
+        $('#timeline article:lt('+x+')').show();
+    });
+});
+    </script>
     <script>
     (function() {  // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
