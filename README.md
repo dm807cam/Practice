@@ -17,7 +17,7 @@ If you feel like you want to contribute feel free to drop me a message.
 
 ##Release notice
 <code>
-27.07.2016 Changed topography, navigation and allows now background images v1.3 
+27.07.2016 Changed typography, navigation and allows now background images v1.3 
 </code><br>
 <code>
 10.07.2016 Added footer section for credits v.1.2
