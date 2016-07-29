@@ -6,11 +6,14 @@
     </header>
 
     <div class="post-wrapper">
-        {{#post}} {{#if image}}<img class="cover-img" src="{{image}}">{{/if}}
+        {{#post}} 
+        {{#if image}}<img class="cover-img" src="{{image}}">{{/if}}
         <h1>{{title}}</h1>
         <div class="post-date">{{date format="MMMM DD, YYYY"}}{{#if tags}} // {{tags separator=", " prefix="Tagged in: "}}{{/if}}</div>
 
-        {{content}} {{#is "post"}}
+        {{content}} 
+        
+        {{#is "post"}}
         <div class="box">
             {{#author}}
             <img class="author" src="{{image}}"> {{/author}}
@@ -24,7 +27,9 @@
                 {{/next_post}}
             </div>
         </div>
+        
         <hr />
+        
         <div id="disqus_thread"></div>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
         {{/is }}

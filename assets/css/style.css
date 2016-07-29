@@ -1,495 +1,398 @@
- body {
-     font-family: Lora, sans-serif;
-     background: #2c3e50;
- }
- a {
-     background-color: transparent;
-     color: #337ab7;
-     text-decoration: none;
- }
- a:focus,
- a:hover {
-     color: #23527c;
-     text-decoration: none;
- }
- h1,
- h2,
- h3,
- h4 {
-     font-family: inherit;
-     line-height: 1.1;
-     color: inherit;
-     margin-top: 10px;
-     margin-bottom: 10px;
- }
- h1 {
-     font-size: 36px;
-     font-weight: 700;
- }
- h2 {
-     font-size: 28px;
-     font-weight: 700;
- }
- h3 {
-     font-size: 24px;
-     font-weight: 500;
- }
- h4 {
-     font-size: 18px;
-     font-weight: 500;
- }
- p {
-     margin: 0 5px 20px;
- }
- hr {
-     height: 1px;
-     background: #E2E9ED;
-     border: none;
-     width: 50%;
-     margin: 40px auto;
- }
- a:active,
- a:hover {
-     outline: 0;
- }
- blockquote {
-     box-sizing: border-box;
-     margin: 1.75em 0;
-     padding: 0 0 0 1.75em;
-     border-left: #4A4A4A .4em solid
- }
- blockquote p {
-     margin: .8em 0;
-     font-style: italic
- }
- blockquote small {
-     margin: .8em 0 .8em 1.5em;
-     font-size: .9em;
-     color: #CCC
- }
- table {
-     -moz-box-sizing: border-box;
-     box-sizing: border-box;
-     margin: 1.75em 0;
-     max-width: 100%;
-     background-color: transparent
- }
- table td,
- table th {
-     padding: 8px;
-     line-height: 20px;
-     text-align: left;
-     vertical-align: top;
-     border-top: #EFEFEF 1px solid
- }
- .overlay nav,
- .pagination,
- button,
- header .banner {
-     text-align: center
- }
- table th {
-     color: #000
- }
- table caption+thead tr:first-child td,
- table caption+thead tr:first-child th,
- table colgroup+thead tr:first-child td,
- table colgroup+thead tr:first-child th,
- table thead:first-child tr:first-child td,
- table thead:first-child tr:first-child th {
-     border-top: 0
- }
- table tbody+tbody {
-     border-top: #EFEFEF 2px solid
- }
- table table table {
-     background-color: #FFF
- }
- table tbody>tr:nth-child(odd)>td,
- table tbody>tr:nth-child(odd)>th {
-     background-color: #F6F6F6
- }
- table.plain tbody>tr:nth-child(odd)>td,
- table.plain tbody>tr:nth-child(odd)>th {
-     background: 0 0
- }
- .overlay ul,
- button {
-     display: inline-block
- }
- header #nav {
-     height: 50px;
-     text-align: center;
-     margin: 0;
-     padding: 25px 0 0;
- }
- header #nav li {
-     display: inline-block;
- }
- header #nav li a {
-     display: block;
-     color: #fff;
-     font-size: 18px;
-     padding: 10px 25px;
-     border: 2px solid transparent;
-     text-decoration: none;
-     -webkit-transition: all 0.3s;
-     -moz-transition: all 0.3s;
-     -o-transition: all 0.3s;
-     transition: all 0.3s;
- }
- header #nav li a:hover {
-     border: 2px solid #fff;
-     border-radius: 5px;
- }
- header {
-     color: #3A4145;
-     position: relative;
-     width: 100%;
-     z-index: 2
- }
- header .banner {
-     margin: 80px auto
- }
- header .banner h1 {
-     color: #fff;
-     font-family: 'Dancing Script';
-     font-size: 4.85em;
-     margin-bottom: 1em
- }
- header .banner h1 a {
-     color: #fff;
-     text-shadow: 1px 1px 2px #222;
- }
- header .banner h2 {
-     color: #fff;
-     font-size: 1.5em;
-     font-style: italic;
-     font-weight: 300;
-     line-height: 1.5;
-     margin: 0 auto;
-     width: 50%;
-     text-shadow: 1px 1px 2px #222;
- }
- .button_container {
-     position: fixed;
-     top: 5%;
-     right: 2%;
-     height: 27px;
-     width: 35px;
-     cursor: pointer;
-     z-index: 1000;
-     -webkit-transition: opacity .25s ease;
-     transition: opacity .25s ease
- }
- .button_container:hover {
-     opacity: .7
- }
- .button_container.active .top {
-     -webkit-transform: translateY(10px) translateX(0) rotate(45deg);
-     transform: translateY(10px) translateX(0) rotate(45deg);
-     background: #fff
- }
- .button_container.active .middle {
-     opacity: 0;
-     background: #fff
- }
- .button_container.active .bottom {
-     -webkit-transform: translateY(-10px) translateX(0) rotate(-45deg);
-     transform: translateY(-10px) translateX(0) rotate(-45deg);
-     background: #fff
- }
- .button_container span {
-     background: #fff;
-     border: none;
-     height: 5px;
-     width: 100%;
-     position: absolute;
-     top: 0;
-     left: 0;
-     -webkit-transition: all .35s ease;
-     transition: all .35s ease;
-     cursor: pointer
- }
- .index-wrapper section#timeline article div.inner,
- .post-wrapper {
-     border-radius: 2px;
-     box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24)
- }
- .button_container span:nth-of-type(2) {
-     top: 10px
- }
- .button_container span:nth-of-type(3) {
-     top: 20px
- }
- .index-wrapper section#timeline article div.inner,
- .pagination {
-     overflow: hidden;
-     transition: all .3s cubic-bezier(.25, .8, .25, 1)
- }
- .post-wrapper {
-     margin: 6% auto 0;
-     background: #fff;
-     padding: 30px;
-     max-width: 840px;
-     line-height: 1.75em;
-     overflow: hidden
- }
- .post-date {
-     color: #9a9a9a;
-     margin-bottom: 1.6em
- }
- .index-wrapper {
-     margin-top: 6%;
-     line-height: 1.75em
- }
- .index-wrapper section#timeline {
-     width: 80%;
-     margin: 20px auto;
-     position: relative;   
- }
- .index-wrapper section#timeline:before {
-     content: '';
-     display: block;
-     position: absolute;
-     left: 50%;
-     top: 0;
-     margin: 0 0 0 -1px;
-     width: 4px;
-     height: 100%;
-     background: rgba(255, 255, 255, 0.6)
- }
- .index-wrapper section#timeline article {
-     width: 100%;
-     margin: 0 0 20px;
-     position: relative;
-     display:none;  
- }
- .index-wrapper section#timeline article:after {
-     content: '';
-     display: block;
-     clear: both
- }
- .index-wrapper section#timeline article div.inner {
-     width: 40%;
-     float: left;
-     margin: 5px 0 0;
-     background: #fff
- }
- .index-wrapper section#timeline article div.inner:hover {
-     box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22)
- }
- .index-wrapper section#timeline article div.inner span.date,
- .pagination {
-     background: #fff;
-     box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24)
- }
- .index-wrapper section#timeline article div.inner span.date {
-     display: block;
-     width: 60px;
-     height: 50px;
-     padding: 5px 0;
-     position: absolute;
-     top: 0;
-     left: 50%;
-     margin: 0 0 0 -32px;
-     border-radius: 100%;
-     font-size: 12px;
-     font-weight: 900;
-     text-transform: uppercase;
-     color: #3A4145;
-     border: 2px solid transparent
- }
- .index-wrapper section#timeline article div.inner span.date span {
-     display: block;
-     text-align: center;
-     line-height: 1.3em
- }
- .index-wrapper section#timeline article div.inner span.date span.day {
-     font-size: 10px
- }
- .index-wrapper section#timeline article div.inner span.date span.month {
-     font-size: 18px
- }
- .index-wrapper section#timeline article div.inner span.date span.year {
-     font-size: 10px
- }
- .index-wrapper section#timeline article div.inner h2 {
-     padding: 15px 20px 5px;
-     margin: 0;
-     font-size: 1.6em;
-     border-radius: 2px 2px 0 0;
-     position: relative
- }
- .index-wrapper section#timeline article div.inner h2:after {
-     content: '';
-     position: absolute;
-     top: 20px;
-     right: -5px;
-     width: 10px;
-     height: 10px;
-     -webkit-transform: rotate(-45deg)
- }
- .index-wrapper section#timeline article div.inner img {
-     max-width: 100%;
-     height: auto;
- }
- .post-wrapper .cover-img {
-     width: 110%;
-     margin: -30px 0 20px -30px
- }
- .post-wrapper img {
-     width: 110%;
-     margin: 10px 0 0 -40px;
- }
- .index-wrapper section#timeline article div.inner p {
-     padding: 5px 20px 15px;
-     margin: 0;
-     font-size: 1em;
-     color: #656565;
-     border-radius: 0 0 2px 2px
- }
- .index-wrapper section#timeline article div.inner .post-date,
- .index-wrapper section#timeline article div.inner h1,
- .index-wrapper section#timeline article div.inner h3,
- .index-wrapper section#timeline article div.inner h4,
- .index-wrapper section#timeline article div.inner h5,
- .index-wrapper section#timeline article div.inner h6 {
-     padding-left: 20px;
-     margin: 0
- }
- .index-wrapper section#timeline article:nth-child(2n+2) div.inner {
-     float: right
- }
- .index-wrapper section#timeline article:nth-child(2n+2) div.inner h2:after {
-     left: -5px
- }
-.totop, .totop a {
-    position: fixed;
-    text-align:center;
-    color: #fff;
+/*
+Theme: Practice
+Author: Dennis Mayk
+Version: v.1.3
+Url: https://tilligetthere.com
+*/
+
+body {
+    font-family: Lora, sans-serif;
+    background: #2c3e50;
 }
- .pagination {
-     margin: 100px auto;
-     border-radius: 5px;
-     padding: 15px;
-     color: rgba(0, 0, 0, .5);
-     max-width: 150px;
- }
- .pagination a {
-     display: inline-block;
-     color: #3A4145;
-     font-size: 1em
- }
- .older-posts {
-     margin: 0 0 0 15px
- }
- .newer-posts {
-     margin: 0 15px 0 0
- }
- .related {
-     max-width: 840px;
-     margin: 0 auto;
-     padding: 40px 20px
- }
- .related-posts {
-     padding-left: 0;
-     list-style: none;
-     margin-left: 30px
- }
- .related-posts li small {
-     font-size: .8em;
-     color: #999
- }
- .related-posts li a:hover {
-     color: #268bd2;
-     text-decoration: none
- }
- .related-posts li a:hover small {
-     color: inherit
- }
- .box {
-     background: #F2F2F2;
-     width: 70%;
-     text-align: center;
-     margin: 80px auto 0 auto;
-     border: #E2E9ED solid 1px;
- }
- .author {
-     position: relative;
-     margin: 0 auto!important;
-     width: 100px!important;
-     height: auto;
-     border-radius: 100%;
-     top: -50px;
- }
- .next,
- .prev {
-     font-size: 1.2em;
- }
- .more-posts {
-     position: relative;
-     top: -25px;
- }
- .more-posts p {
-     margin: 10px;
- }
- footer,
- footer a {
-     font-size: 12px;
-     color: #fff;
-     text-align: center;
-     padding-top: 20px;
-     padding-bottom: 20px;
-     margin-top: 60px;
-     text-decoration: none;
- }
- @media screen and (max-width:1000px) {
-     .index-wrapper section#timeline article:nth-child(n) div.inner {
-         float: right
-     }
-     .index-wrapper section#timeline article div.inner span.date,
-     .index-wrapper section#timeline:before {
-         left: 0
-     }
-     .index-wrapper section#timeline article div.inner {
-         width: 90%
-     }
-     .post-wrapper .cover-img,
-     .post-wrapper img {
-         width: 115%
-     }
- }
- @media screen and (max-width:600px) {
-     .index-wrapper section#timeline article:nth-child(n) div.inner {
-         float: right
-     }
-     .index-wrapper section#timeline {
-         width: 95%;
-     }
-     .index-wrapper section#timeline article div.inner span.date,
-     .index-wrapper section#timeline:before {
-         left: 0;
-         display: none
-     }
-     .index-wrapper section#timeline article div.inner,
-     .post-wrapper section#timeline article div.inner {
-         width: 100%
-     }
-     .post-wrapper .cover-img,
-     .post-wrapper img {
-         width: 130%
-     }
-     header .banner h1 {
-         font-size: 3.5em
-     }
-     header .banner h2 {
-         font-size: 1.2em
-     }
-     .social .min-date {
-         display: inline-block
-     }
-     .social .tag {
-         display: none
-     }
- }
+a {
+    background-color: transparent;
+    color: #337ab7;
+    text-decoration: none;
+}
+a:focus,
+a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
+p {
+    margin: 0 5px 20px;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: inherit;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+blockquote {
+    box-sizing: border-box;
+    margin: 1.75em 0;
+    padding: 0 0 0 1.75em;
+    border-left: #4A4A4A .4em solid
+}
+blockquote p {
+    margin: .8em 0;
+    font-style: italic
+}
+blockquote small {
+    margin: .8em 0 .8em 1.5em;
+    font-size: .9em;
+    color: #CCC
+}
+hr {
+    height: 1px;
+    background: #E2E9ED;
+    border: none;
+    width: 50%;
+    margin: 40px auto;
+}
+
+/*
+===============================================================================
+  Header & Navigation
+===============================================================================
+*/
+
+header #nav {
+    height: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 25px 0 0;
+}
+header #nav li {
+    display: inline-block;
+}
+header #nav li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+header #nav li a:hover {
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+header {
+    color: #3A4145;
+    position: relative;
+    width: 100%;
+    z-index: 2
+}
+header .banner {
+    margin: 80px auto
+}
+header .banner h1 {
+    color: #fff;
+    font-family: 'Dancing Script';
+    font-size: 4.85em;
+    margin-bottom: 1em
+}
+header .banner h1 a {
+    color: #fff;
+    text-shadow: 1px 1px 2px #222;
+}
+header .banner h2 {
+    color: #fff;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 50%;
+    text-shadow: 1px 1px 2px #222;
+}
+.pagination,
+header .banner {
+    text-align: center
+}
+
+/*
+===============================================================================
+  Content
+===============================================================================
+*/
+
+.post-wrapper {
+    margin: 6% auto 0;
+    background: #fff;
+    padding: 30px;
+    max-width: 840px;
+    line-height: 1.75em;
+    overflow: hidden
+}
+.index-wrapper {
+    margin-top: 6%;
+    line-height: 1.75em
+}
+.index-wrapper section#timeline article div.inner,
+.post-wrapper {
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24)
+}
+.index-wrapper section#timeline article div.inner,
+.pagination {
+    overflow: hidden;
+    transition: all .3s cubic-bezier(.25, .8, .25, 1)
+}
+.index-wrapper section#timeline {
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+}
+.index-wrapper section#timeline:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin: 0 0 0 -1px;
+    width: 4px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6)
+}
+.index-wrapper section#timeline article {
+    width: 100%;
+    margin: 0 0 20px;
+    position: relative;
+    display: none;
+}
+.index-wrapper section#timeline article:after {
+    content: '';
+    display: block;
+    clear: both
+}
+.index-wrapper section#timeline article div.inner {
+    width: 40%;
+    float: left;
+    margin: 5px 0 0;
+    background: #fff
+}
+.index-wrapper section#timeline article div.inner:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22)
+}
+.index-wrapper section#timeline article div.inner span.date,
+.pagination {
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24)
+}
+.index-wrapper section#timeline article div.inner span.date {
+    display: block;
+    width: 60px;
+    height: 50px;
+    padding: 5px 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -32px;
+    border-radius: 100%;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #3A4145;
+    border: 2px solid transparent
+}
+.index-wrapper section#timeline article div.inner span.date span {
+    display: block;
+    text-align: center;
+    line-height: 1.3em
+}
+.index-wrapper section#timeline article div.inner span.date span.day {
+    font-size: 10px
+}
+.index-wrapper section#timeline article div.inner span.date span.month {
+    font-size: 18px
+}
+.index-wrapper section#timeline article div.inner span.date span.year {
+    font-size: 10px
+}
+.index-wrapper section#timeline article div.inner h2 {
+    padding: 15px 20px 5px;
+    margin: 0;
+    font-size: 1.6em;
+    border-radius: 2px 2px 0 0;
+    position: relative
+}
+.index-wrapper section#timeline article div.inner h2:after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: -5px;
+    width: 10px;
+    height: 10px;
+    -webkit-transform: rotate(-45deg)
+}
+.index-wrapper section#timeline article div.inner img {
+    max-width: 100%;
+    height: auto;
+}
+.index-wrapper section#timeline article div.inner p {
+    padding: 5px 20px 15px;
+    margin: 0;
+    font-size: 1em;
+    color: #656565;
+    border-radius: 0 0 2px 2px
+}
+.index-wrapper section#timeline article div.inner .post-date,
+.index-wrapper section#timeline article div.inner h1,
+.index-wrapper section#timeline article div.inner h3,
+.index-wrapper section#timeline article div.inner h4,
+.index-wrapper section#timeline article div.inner h5,
+.index-wrapper section#timeline article div.inner h6 {
+    padding-left: 20px;
+    margin: 0
+}
+.index-wrapper section#timeline article:nth-child(2n+2) div.inner {
+    float: right
+}
+.index-wrapper section#timeline article:nth-child(2n+2) div.inner h2:after {
+    left: -5px
+}
+.post-wrapper .cover-img {
+    width: 110%;
+    margin: -30px 0 20px -30px
+}
+.post-wrapper img {
+    width: 110%;
+    margin: 10px 0 0 -40px;
+}
+.post-date {
+    color: #9a9a9a;
+    margin-bottom: 1.6em
+}
+
+/*
+===============================================================================
+  Pagination
+===============================================================================
+*/
+
+.pagination {
+    margin: 100px auto;
+    border-radius: 5px;
+    padding: 15px;
+    color: rgba(0, 0, 0, .5);
+    max-width: 150px;
+}
+.pagination a {
+    display: inline-block;
+    color: #3A4145;
+    font-size: 1em
+}
+.box {
+    background: #F2F2F2;
+    width: 70%;
+    text-align: center;
+    margin: 80px auto 0 auto;
+    border: #E2E9ED solid 1px;
+}
+.author {
+    position: relative;
+    margin: 0 auto!important;
+    width: 100px!important;
+    height: auto;
+    border-radius: 100%;
+    top: -50px;
+}
+.more-posts {
+    position: relative;
+    top: -25px;
+}
+.more-posts p {
+    margin: 10px;
+}
+footer,
+footer a {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    text-decoration: none;
+}
+
+/*
+===============================================================================
+  Make it Responsive
+===============================================================================
+*/
+
+@media screen and (max-width:1000px) {
+    .index-wrapper section#timeline article:nth-child(n) div.inner {
+        float: right
+    }
+    .index-wrapper section#timeline article div.inner span.date,
+    .index-wrapper section#timeline:before {
+        left: 0
+    }
+    .index-wrapper section#timeline article div.inner {
+        width: 90%
+    }
+    .post-wrapper .cover-img,
+    .post-wrapper img {
+        width: 115%
+    }
+}
+@media screen and (max-width:600px) {
+    .index-wrapper section#timeline article:nth-child(n) div.inner {
+        float: right
+    }
+    .index-wrapper section#timeline {
+        width: 95%;
+    }
+    .index-wrapper section#timeline article div.inner span.date,
+    .index-wrapper section#timeline:before {
+        left: 0;
+        display: none
+    }
+    .index-wrapper section#timeline article div.inner,
+    .post-wrapper section#timeline article div.inner {
+        width: 100%
+    }
+    .post-wrapper .cover-img,
+    .post-wrapper img {
+        width: 130%
+    }
+    header .banner h1 {
+        font-size: 3.5em
+    }
+    header .banner h2 {
+        font-size: 1.2em
+    }
+    .social .min-date {
+        display: inline-block
+    }
+    .social .tag {
+        display: none
+    }
+}
