@@ -304,6 +304,10 @@ header .banner {
     font-size: 1em;
     padding: 15px;   
 }
+#infscr-loading {
+    max-width: 150px;
+    margin: 100 auto;
+}
 .box {
     background: #F2F2F2;
     width: 70%;
