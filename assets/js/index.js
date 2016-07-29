@@ -24,18 +24,6 @@ $('body').subbscribe({
         dataType: 'html',
         maxPage: 3,
     });
-
-    $(window).unbind('.infscr');
-
-    $('a#next').click(function () {
-        $(document).trigger('retrieve.infscr');
-        return false;
-    });
-
-    $(document).ajaxError(function (e, xhr, opt) {
-        if (xhr.status == 404) $('a#next').remove();
-    });
-
 /*
 ===============================================================================
   Disqus 
