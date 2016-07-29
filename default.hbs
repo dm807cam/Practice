@@ -11,6 +11,7 @@
     <meta name="description" content="{{meta_description}}">
 
     <link rel ="stylesheet" href="{{asset "css/style.css"}}">
+    <link rel ="stylesheet" href="{{asset "css/subbscribe.css"}}">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700" >
 
@@ -29,7 +30,19 @@
     </footer>
     {{ghost_footer}}
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    
+    <script src="{{asset "subbscribe.min.js"}}"></script>
+	<script>
+
+		$('body').subbscribe({
+					list	  	: "MailChimp",
+    			url 	  	: "//1bytebeta.us9.list-manage.com/subscribe/post?u=1c261e60d8259c0c636801494&id=7fa99bf359",
+					name      : "<a href='https://twitter.com/shlominissan' target='_blank'>@shlominissan</a>",
+        	thumbnail : "https://s3-ap-southeast-2.amazonaws.com/subbscribe/img/shlomi.jpg",
+          color     : "#F2545B",
+					delay			: 3,
+		});
+
+	</script>
     <script>
     $(function () {
     $("article").slice(0, 4).show();
