@@ -184,7 +184,6 @@ header .banner {
     width: 100%;
     margin: 0 0 20px;
     position: relative;
-    display: none;
 }
 .index-wrapper section#timeline article:after {
     content: '';
