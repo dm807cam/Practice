@@ -13,18 +13,17 @@ $('body').subbscribe({
 });
 /*
 ===============================================================================
-  Fake Load more - Hope to find better solution soon
+  Infinity Scroll - YEAH!
 ===============================================================================
 */
-$(function () {
-    $("article").slice(0, 4).show();
-    $("#loadMore").on('click', function (e) {
-        e.preventDefault();
-        $("article:hidden").slice(0, 4).slideDown();
-        if ($("article:hidden").length == 0) {
-            $("#load").fadeOut('slow');
-        }
-    });
+$('#timeline').infinitescroll({
+    navSelector: "#next:last",
+    nextSelector: "a#next:last",
+    itemSelector: "article",
+    loadingImg   : ""{{asset "img/loader.gif"}}"",
+    donetext     : "I think we've hit the end!" ,
+    dataType: 'html',
+    maxPage: 4,
 });
 /*
 ===============================================================================

@@ -34,20 +34,8 @@
     
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="{{asset "js/subbscribe.min.js"}}"></script>
-        
-	
-	<script src="{{asset "js/scroll.js"}}"></script>
-	<script>
-	
-	
-	$('#timeline').infinitescroll({
-		navSelector  	: "#next:last",
-		nextSelector 	: "a#next:last",
-		itemSelector 	: ".article",
-		dataType	 	: 'html',
-        maxPage         : 4,
-    });
-	</script>
+        <script src="{{asset "js/infinitescroll.min.js"}}"></script>
+        <script src="{{asset "js/index.js"}}"></script>
     
     </body>
 
