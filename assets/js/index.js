@@ -16,7 +16,7 @@ $('body').subbscribe({
   Infinity Scroll - YEAH!
 ===============================================================================
 */
-    $('#body').infinitescroll({
+    $('body').infinitescroll({
         navSelector: "#next:last",
         nextSelector: "a#next:last",
         itemSelector: "#timeline",
