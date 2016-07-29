@@ -34,7 +34,39 @@
     
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="{{asset "js/subbscribe.min.js"}}"></script>
-        <script src="{{asset "js/index.js"}}"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+	<script>window.jQuery || document.write("<script src='jquery-1.6.1.js'>\x3C/script>")</script>
+	
+	<script src="{{asset "js/scroll.js"}}"></script>
+	<script>
+	
+	
+	$('#timeline').infinitescroll({
+		navSelector  	: "#next:last",
+		nextSelector 	: "a#next:last",
+		itemSelector 	: ".article .inner",
+		debug		 	: true,
+		dataType	 	: 'html',
+        maxPage         : 3,
+//		prefill			: true,
+//		path: ["http://nuvique/infinite-scroll/test/index", ".html"]
+		path: function(index) {
+			return "index" + index + ".html";
+		}
+		// behavior		: 'twitter',
+		// appendCallback	: false, // USE FOR PREPENDING
+		// pathParse     	: function( pathStr, nextPage ){ return pathStr.replace('2', nextPage ); }
+    }, function(newElements, data, url){
+    	//USE FOR PREPENDING
+    	// $(newElements).css('background-color','#ffef00');
+    	// $(this).prepend(newElements);
+    	//
+    	//END OF PREPENDING
+//    	window.console && console.log('context: ',this);
+//    	window.console && console.log('returned: ', newElements);
+    	
+    });
+	</script>
     
     </body>
 
