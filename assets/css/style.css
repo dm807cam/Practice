@@ -306,7 +306,11 @@ header .banner {
 }
 #infscr-loading {
     max-width: 150px;
-    margin: 100 auto;
+    margin: 100px auto;
+    text-align:center;
+}
+#infscr-loading img {
+    margin: 100px auto;
 }
 .box {
     background: #F2F2F2;
