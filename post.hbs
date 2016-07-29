@@ -16,12 +16,15 @@
         {{#is "post"}}
         <div class="box">
             {{#author}}
-            <img class="author" src="{{image}}"> {{/author}}
+            <img class="author" src="{{image}}"> 
+            {{/author}}
             <div class="more-posts">
-                <h3 class="moreit">More Posts</h3> {{#prev_post}}
+                <h3 class="moreit">More Posts</h3> 
+                {{#prev_post}}
                 <p>Prev:&nbsp;
                     <a href="{{url}}">{{title}}</a></p>
-                {{/prev_post}} {{#next_post}}
+                {{/prev_post}} 
+                {{#next_post}}
                 <p>Next:&nbsp;
                     <a href="{{url}}">{{title}}</a></p>
                 {{/next_post}}
