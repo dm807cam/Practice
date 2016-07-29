@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700">
 
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{@blog.logo}}">
-    <link rel="shortcut icon" href="{{@blog.logo}}"> {{ghost_head}}
+    <link rel="shortcut icon" href="{{@blog.logo}}"> 
+    
+    {{ghost_head}}
     
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
@@ -41,6 +43,7 @@
             <span style="font-size:24pt;">Bitte aktivieren Sie JavaScript<br/></span>
             <span style="font-size:16pt;">(Diese Webseite funktioniert nicht ohne JavaScript)</span>
         </div>
+        
         <script type="text/javascript">
             $("#javascript_error").remove();
         </script>
@@ -53,10 +56,7 @@
             <h2 id="welcome">Welcome to the Body Fat Calculator</h2>
             <p id="description">Please insert the results of your caliper 3-point method measurements</p>
             <center>
-                <img id="genderPic" src="images/female.svg" alt="measurements" height="50%"/>
-                <div>
-                    <small>Author: <a href="https://commons.wikimedia.org/wiki/User:Jmarchn">Jmarchn</a></small>
-                </div>
+                <img id="genderPic" src="http://bodyfat.konze.org/images/female.svg" alt="measurements" height="50%"/>
                 <table>
                     <tr>
                         <td colspan="2"><h3>Gender</h3></td>
@@ -120,13 +120,13 @@
                 resetLabelsAndValues();
                 $('#d0Label').text('Triceps');
                 $('#d2Label').text('Hip');
-                $('#genderPic').attr('src', 'images/female.svg');
+                $('#genderPic').attr('src', 'http://bodyfat.konze.org/images/female.svg');
             }
             function insertMaleLabelsAndValues() {
                 resetLabelsAndValues();
                 $('#d0Label').text('Breast');
                 $('#d2Label').text('Thigh');
-                $('#genderPic').attr('src', 'images/male.svg');
+                $('#genderPic').attr('src', 'http://bodyfat.konze.org/images/male.svg');
             }
 			function calculateResult() {
 				var age = parseInt($('#ageInput').val());
