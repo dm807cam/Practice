@@ -294,6 +294,7 @@ header .banner {
   Pagination
 ===============================================================================
 */
+
 .pagination {
     max-width: 150px;
     margin: 100px auto;
@@ -302,15 +303,17 @@ header .banner {
 .pagination #next {
     color: #3A4145;
     font-size: 1em;
-    padding: 15px;   
+    padding: 15px;
 }
 #infscr-loading {
-    max-width: 150px;
+    width: 60px;
+    height: 50px;
+    padding: 5px 0;
     margin: 100px auto;
-    text-align:center;
-    border-radius: 5px;
+    text-align: center;
+    border-radius: 100%;
     background: #fff;
-    z-index: 1000;
+    z-index: 1100;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
 }
 #infscr-loading img {
