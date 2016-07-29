@@ -46,13 +46,13 @@
 		nextSelector 	: "a#next:last",
 		itemSelector 	: ".article .inner",
 		debug		 	: true,
-		dataType	 	: 'html',
+		dataType	 	: 'json',
         maxPage         : 3,
 //		prefill			: true,
 //		path: ["http://nuvique/infinite-scroll/test/index", ".html"]
-		path: function(page) {
-			return "page";
-		}
+//		path: function(page) {
+//			return "index" + index + ".html";
+//		}
 		// behavior		: 'twitter',
 		// appendCallback	: false, // USE FOR PREPENDING
 		// pathParse     	: function( pathStr, nextPage ){ return pathStr.replace('2', nextPage ); }
