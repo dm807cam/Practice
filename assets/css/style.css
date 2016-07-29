@@ -308,13 +308,18 @@ header .banner {
 #infscr-loading {
     width: 60px;
     height: 50px;
-    padding-top: 15px;
+    padding: 5px 0;
     margin: 100px auto;
     text-align: center;
     border-radius: 100%;
     background: #fff;
     z-index: 1100;
+    text-transform: uppercase;
+    color: #3A4145;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+}
+#infscr-loading {
+    line-height: 1.3em;
 }
 .box {
     background: #F2F2F2;
