@@ -16,14 +16,29 @@ $('body').subbscribe({
   Infinity Scroll - YEAH!
 ===============================================================================
 */
-$('#timeline').infinitescroll({
-    navSelector: "#next:last",
-    nextSelector: "a#next:last",
-    itemSelector: "article",
-    donetext: "I think we've hit the end!" ,
-    dataType: 'html',
-    maxPage: 3,
+$(function () {
+
+    $('#timeline').infinitescroll({
+        navSelector: "#next:last",
+        nextSelector: "a#next:last",
+        itemSelector: "article",
+        donetext: "I think we've hit the end!",
+        dataType: 'html',
+        maxPage: 3,
+    });
+
+    $(window).unbind('.infscr');
+
+    $('a#next').click(function () {
+        $(document).trigger('retrieve.infscr');
+        return false;
+    });
+
+    $(document).ajaxError(function (e, xhr, opt) {
+        if (xhr.status == 404) $('a#next').remove();
+    });
 });
+
 /*
 ===============================================================================
   Disqus 
