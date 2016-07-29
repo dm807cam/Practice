@@ -20,7 +20,6 @@ $('#timeline').infinitescroll({
     navSelector: "#next:last",
     nextSelector: "a#next:last",
     itemSelector: "article",
-    loadingImg   : ""{{asset "img/loader.gif"}}"",
     donetext     : "I think we've hit the end!" ,
     dataType: 'html',
     maxPage: 4,
