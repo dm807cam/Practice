@@ -11,6 +11,7 @@
     <meta name="description" content="{{meta_description}}">
 
     <link rel="stylesheet" href="{{asset "css/style.css"}}">
+    <link rel="stylesheet" href="{{asset "css/fatcalc.css"}}">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700">
 
@@ -40,100 +41,80 @@
         
         {{/post}}
         
-        <table align="center">
-            <tbody>
-                <tr>
-                    <td>&nbsp;
-                    </td>
-                    <td>
-                        <select id="caliper_gender" name="caliper_gender" onChange="caliper_onGenderChange()">
-                            <option value="0">Männlich</option>
-                            <option value="1">Weiblich</option>
+        <select id="caliper_gender" name="caliper_gender" onChange="caliper_onGenderChange()">
+                            <option value="0">Male</option>
+                            <option value="1">Female</option>
                         </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>Methode:</strong></td>
-                    <td>
-                        <select id="caliper_method" name="caliper_method" onChange="caliper_onMethodChange()">
+        <select id="caliper_method" name="caliper_method" onChange="caliper_onMethodChange()">
                             <option value="31">3-Falten Methode nach Jackson-Pollock</option>
                             <option value="7">7-Falten Methode nach Jackson-Pollock</option>
                         </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>Brust:</strong></td>
-                    <td>
-                        <input id="brust_falte" name="caliper_input" type="text"> [mm]</td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>Bauch:</strong></td>
-                    <td>
-                        <input id="bauch_falte" name="caliper_input" type="text"> [mm]</td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>Oberschenkel:</strong></td>
-                    <td>
-                        <input id="oberschenkel_falte" name="caliper_input" type="text"> [mm]</td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>Schulterblatt:</strong></td>
-                    <td>
-                        <input disabled="disabled" id="schulterblatt_falte" name="caliper_input" type="text"> [mm]</td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>Trizeps:</strong></td>
-                    <td>
-                        <input disabled="disabled" id="trizeps_falte" name="caliper_input" type="text"> [mm]</td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>Achsel:</strong></td>
-                    <td>
-                        <input disabled="disabled" id="achsel_falte" name="caliper_input" style="background-color: #222222;" type="text"> [mm]</td>
-                </tr>
+         <form>
+    
+    <div class="group">      
+      <input type="text" id="brust_falte" name="caliper_input" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Brust</label>
+    </div>
+      
+    <div class="group">      
+      <input type="text" id="bauch_falte" name="caliper_input" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Bauch</label>
+    </div>
+    
+              <div class="group">      
+      <input type="text" id="oberschenkel_falte" name="caliper_input" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Oberschenkel</label>        
+    </div>
+             
+             <div class="group">      
+      <input type="text" id="schulterblatt_falte" name="caliper_input" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Schulterblatt</label>
+             </div>
+             
+                <div class="group">      
+      <input type="text" id="trizeps_falte" name="caliper_input" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Trizeps</label>
+             </div>
+              <div class="group">      
+      <input type="text" id="achsel_falte" name="caliper_input" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Achsel</label>
+             </div>
+              <div class="group">      
+      <input type="text" id="hueft_falte" name="caliper_input" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Hüfte</label>
+             </div>
+             
+             <div class="group">      
+      <input type="text" id="caliper_input" name="caliper_input" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Alter</label>
+             </div>
+                     
+             <div class="group">      
+      <input id="caliper_fat_result" name="caliper_input" type="text" readonly>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Ergebnis Körperfettanteil</label>
+             </div>
+  </form>
+        
+         <input name="berechnen" onClick="caliper_calculateFat();" type="submit" value="Körperfettanteil ermitteln">
 
-                <tr>
-                    <td>
-                        <strong>Hüfte:</strong></td>
-                    <td>
-                        <input disabled="disabled" id="hueft_falte" name="caliper_input" type="text"> [mm]</td>
-                </tr>
-
-
-
-
-                <tr>
-                    <td>
-                        <strong>Alter:</strong></td>
-                    <td>
-                        <input id="caliper_alter" name="caliper_input" type="text"> [Jahr]</td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <strong>Ergebnis Körperfettanteil:</strong></td>
-                    <td>
-                        <input id="caliper_fat_result" name="caliper_input" type="text" readonly> [%]</td>
-                </tr>
-                <tr>
-                    <td>&nbsp;
-                    </td>
-                    <td>
-                        <input name="berechnen" onClick="caliper_calculateFat();" type="submit" value="Körperfettanteil ermitteln">
-                    </td>
-                </tr>
-
-
-            </tbody>
-        </table>
-  
         <script language="JavaScript">
             <!--
             function caliper_calculateFat() {
