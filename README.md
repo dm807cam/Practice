@@ -1,6 +1,6 @@
 # Practice
 
-![Practice Theme Demo](https://github.com/Dennis-Mayk/Practice/blob/master/preview.gif)
+[Practice Theme Demo](https://github.com/Dennis-Mayk/Practice/blob/master/preview.gif)
 A clean timeline theme for the Ghost CMS.
 This theme has been build from the ground up with a focus on only the most essential elements to keep the user experience smooth and fast.
 See it in action on my private blog <a href="https://tilligetthere.com" target="_blank">'till I get there</a>.
@@ -16,6 +16,9 @@ I will continue working on <b>Practice</b> to increase performance and keep it u
 If you feel like you want to contribute feel free to drop me a message.
 
 ##Release notice
+<code>
+30.07.2016 Practice now uses [infinite scroll](https://github.com/infinite-scroll/infinite-scroll) for pagination v1.4 
+</code><br>
 <code>
 27.07.2016 Changed typography, navigation and allows now background images v1.3 
 </code><br>
