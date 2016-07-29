@@ -10,7 +10,7 @@
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}">
 
-    <link rel="stylesheet" href="{{asset " css/style.css "}}">
+    <link rel="stylesheet" href="{{asset "css/style.css"}}">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700">
 
@@ -32,21 +32,14 @@
     </header>
 
     <div class="post-wrapper">
-        <h1>
- <img src="http://www.blupalu.com/blupalu_310x90.jpg" longdesc="http://www.blupalu.com" height="90" width="310">
- </h1>
+        {{#post}} 
+        {{#if image}}<img class="cover-img" src="{{image}}">{{/if}}
+        <h1>{{title}}</h1>
 
-        <br>
-
-
-        <div id="technicalProductFeaturesATF">
-
-            <strong><span style="font-size: 20px;">blupalu Körperfettrechner:</span></strong>
-            <br>
-            <!-- <span style="font-size: 11px;"> Das Ergebnis dieser Rechnung kann eine ärztliche Diagnose nicht ersetzen !</span></p> -->
-        </div>
-
-
+        {{content}}
+        
+        {{/post}}
+        
         <table align="left" border="2" cellpadding="0" cellspacing="3" height="463" rules="none" width="522" style="background-color: #Eeeeee">
             <tbody>
                 <tr style="font-size: 13px;">
@@ -140,97 +133,7 @@
 
             </tbody>
         </table>
-
-
-        <div style="clear:both;">
-
-        </div>
-
-
-
-
-        &nbsp;
-        <br>
-        <table align="left" border="2" cellpadding="0" cellspacing="0" height="200" rules="all" width="350">
-            <tbody>
-                <tr style="font-size: 13px;" bgcolor="#A7A7A7">
-                    <td>
-                        <strong>Einstufung:</strong>
-                    </td>
-                    <td>
-                        <strong>Frauen:</strong>
-                    </td>
-                    <td>
-                        <strong>Männer:</strong>
-                    </td>
-                </tr>
-                <tr style="font-size: 13px;" bgcolor="#CC3333">
-                    <td>
-                        <strong>zu niedrig:</strong>
-                    </td>
-                    <td>
-                        <strong>< 14 %:</strong>
-                    </td>
-                    <td>
-                        <strong>< 6 %:</strong>
-                    </td>
-                </tr>
-                <tr style="font-size: 13px;" bgcolor="#FFFF33">
-                    <td>
-                        <strong>niedrig:</strong>
-                    </td>
-                    <td>
-                        <strong>14 - 20 %:</strong>
-                    </td>
-                    <td>
-                        <strong>6 - 13 %:</strong>
-                    </td>
-                </tr>
-                <tr style="font-size: 13px;" bgcolor="#66FF00">
-                    <td>
-                        <strong>optimal:</strong>
-                    </td>
-                    <td>
-                        <strong>21 - 24 %:</strong>
-                    </td>
-                    <td>
-                        <strong>14 - 17 %:</strong>
-                    </td>
-                </tr>
-                <tr style="font-size: 13px;" bgcolor="#FFFF33">
-                    <td>
-                        <strong>durchschnittlich:</strong>
-                    </td>
-                    <td>
-                        <strong>25 -  31 %:</strong>
-                    </td>
-                    <td>
-                        <strong>18 - 24 %:</strong>
-                    </td>
-                </tr>
-                <tr style="font-size: 13px;" bgcolor="#CC3333">
-                    <td>
-                        <strong>fettleibig:</strong>
-                    </td>
-                    <td>
-                        <strong>>31 %:</strong>
-                    </td>
-                    <td>
-                        <strong>>24 %:</strong>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-        <div style="clear:both;">
-
-        </div>
-        <br>
-        <br><span style="font-size: 14px;"> Das Ergebnis dieser Rechnung kann eine ärztliche Diagnose <u>nicht</u> ersetzen !</span></p>
-        <p>
-            <a href="http://www.blupalu.com/impressum.html" title="Impressum">Impressum</a>
-        </p>
-
+  
         <script language="JavaScript">
             <!--
             function caliper_calculateFat() {
