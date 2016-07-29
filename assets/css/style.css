@@ -295,17 +295,15 @@ header .banner {
 ===============================================================================
 */
 
-.pagination {
+.pagination #next {
+    display: inline-block;
+    color: #3A4145;
+    font-size: 1em;
     margin: 100px auto;
     border-radius: 5px;
     padding: 15px;
     color: rgba(0, 0, 0, .5);
     max-width: 150px;
-}
-.pagination a {
-    display: inline-block;
-    color: #3A4145;
-    font-size: 1em
 }
 .box {
     background: #F2F2F2;
