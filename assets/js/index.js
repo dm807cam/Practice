@@ -16,8 +16,6 @@ $('body').subbscribe({
   Infinity Scroll - YEAH!
 ===============================================================================
 */
-$(function () {
-
     $('#body').infinitescroll({
         navSelector: "#next:last",
         nextSelector: "a#next:last",
@@ -37,7 +35,6 @@ $(function () {
     $(document).ajaxError(function (e, xhr, opt) {
         if (xhr.status == 404) $('a#next').remove();
     });
-});
 
 /*
 ===============================================================================
