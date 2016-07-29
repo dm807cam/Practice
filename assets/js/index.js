@@ -20,9 +20,9 @@ $('#timeline').infinitescroll({
     navSelector: "#next:last",
     nextSelector: "a#next:last",
     itemSelector: "article",
-    donetext     : "I think we've hit the end!" ,
+    donetext: "I think we've hit the end!" ,
     dataType: 'html',
-    maxPage: 4,
+    maxPage: 3,
 });
 /*
 ===============================================================================
