@@ -20,8 +20,6 @@ $('body').subbscribe({
         navSelector: "#next:last",
         nextSelector: "a#next:last",
         itemSelector: "article",
-        donetext: "I think we've hit the end!",
-        bufferPx: 400,
         dataType: 'html',
         maxPage: 3,
     });
