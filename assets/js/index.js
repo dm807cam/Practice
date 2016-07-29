@@ -18,10 +18,10 @@ $('body').subbscribe({
 */
 $(function () {
 
-    $('#timeline').infinitescroll({
+    $('#body').infinitescroll({
         navSelector: "#next:last",
         nextSelector: "a#next:last",
-        itemSelector: "article",
+        itemSelector: "#timeline",
         donetext: "I think we've hit the end!",
         dataType: 'html',
         maxPage: 3,
