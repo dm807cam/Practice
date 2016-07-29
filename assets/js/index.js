@@ -21,6 +21,7 @@ $('body').subbscribe({
         nextSelector: "a#next:last",
         itemSelector: "article",
         donetext: "I think we've hit the end!",
+        bufferPx: 100,
         dataType: 'html',
         maxPage: 3,
     });
