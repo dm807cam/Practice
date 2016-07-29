@@ -16,10 +16,10 @@ $('body').subbscribe({
   Infinity Scroll - YEAH!
 ===============================================================================
 */
-    $('#timeline').infinitescroll({
+    $('body').infinitescroll({
         navSelector: "#next:last",
         nextSelector: "a#next:last",
-        itemSelector: "article",
+        itemSelector: "#timeline",
         dataType: 'html',
         maxPage: 3,
     });
