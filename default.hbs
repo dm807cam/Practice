@@ -17,12 +17,23 @@
 
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{@blog.logo}}">
     <link rel="shortcut icon" href="{{@blog.logo}}">
+    <style>
+        body {  
+            background:url('{{@blog.cover}}');
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            width: 100%;
+            overflow: hidden;
+            }
+    </style>
     
     {{ghost_head}}
 
 </head>
     
-    <body style="background:url('{{@blog.cover}}');background-size:cover;background-attachment:fixed;">
+    <body>
     
         {{{body}}}
 
