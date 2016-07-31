@@ -12,14 +12,19 @@ body {
 }
 a {
     background-color: transparent;
-    color: #7bd0c1;
+    color: #3A4145;
     text-decoration: none;
+    border-bottom: 1px dashed #7bd0c1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 a:focus,
 a:hover {
-    color: #f2849e;
-    transition: transform 0.5s ease, opacity 0.5s ease;
+    color: #7bd0c1;
     text-decoration: none;
+    border:none;
 }
 p {
     margin: 0 5px 20px;
@@ -121,6 +126,7 @@ header .banner h1 {
 }
 header .banner h1 a {
     color: #fff;
+    border: none;
 }
 header .banner h2 {
     color: #fff;
