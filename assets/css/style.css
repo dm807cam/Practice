@@ -267,6 +267,9 @@ header .banner {
     color: #656565;
     border-radius: 0 0 2px 2px
 }
+.index-wrapper section#timeline article div.inner a {
+    border: none;
+}
 .index-wrapper section#timeline article div.inner .post-date,
 .index-wrapper section#timeline article div.inner h1,
 .index-wrapper section#timeline article div.inner h3,
