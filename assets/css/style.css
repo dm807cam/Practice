@@ -402,6 +402,10 @@ footer a {
     header .banner h2 {
         font-size: 1.2em
     }
+    header #nav li a {
+    font-size: 12px;
+    padding: 5px 10px;
+    }
     .social .min-date {
         display: inline-block
     }
