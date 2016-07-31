@@ -12,7 +12,7 @@ body {
 }
 a {
     background-color: transparent;
-    color: #337ab7;
+    color: rgba(52, 164, 202, 0.66);
     text-decoration: none;
 }
 a:focus,
