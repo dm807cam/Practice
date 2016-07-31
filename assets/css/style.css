@@ -89,7 +89,7 @@ header #nav li {
 }
 header #nav li a {
     display: block;
-    color: #fff;
+    color: #3A4145;
     font-size: 18px;
     padding: 10px 25px;
     border: 2px solid transparent;
@@ -367,7 +367,7 @@ footer a {
     .index-wrapper section#timeline:before {
         left: 0
     }
-    .index-wrapper section#timeline article div.inner {
+    .index-wrapper section#timeline article div.inner, header {
         width: 90%
     }
     .post-wrapper .cover-img,
@@ -379,7 +379,7 @@ footer a {
     .index-wrapper section#timeline article:nth-child(n) div.inner {
         float: right
     }
-    .index-wrapper section#timeline {
+    .index-wrapper section#timeline, header {
         width: 95%;
     }
     .index-wrapper section#timeline article div.inner span.date,
