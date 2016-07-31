@@ -17,6 +17,7 @@
 
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{@blog.logo}}">
     <link rel="shortcut icon" href="{{@blog.logo}}">
+    {{#is index}}
     <style>
     header {
     position: relative;
@@ -34,7 +35,15 @@
 	justify-content: center;
 	align-items: center;
     text-align: center;
-}
+    }
+    {{else}}
+    header {
+        position: relative;
+        width: 100%;
+        text-align:center;
+        height: 50px;
+        }
+        {{/is}}
     </style>
     {{ghost_head}}
 
