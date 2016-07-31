@@ -99,7 +99,7 @@ header #nav li a {
     transition: all 0.3s;
 }
 header #nav li a:hover {
-    border: 2px solid #3A4145;
+    border: 2px solid #fff;
     border-radius: 5px;
 }
 header {
