@@ -101,16 +101,7 @@ header #nav li a {
 header #nav li a:hover {
     border: 2px solid #868696;
     border-radius: 5px;
-}
-header {
-    color: #3A4145;
-    position: relative;
-    width: 100%;
-    z-index: 2
-}
-header:after {
-    background: #333;
-    opacity: 0.5;
+    color: #23527c;
 }
 header .banner {
     margin: 30px auto
@@ -128,6 +119,9 @@ header .banner h1 {
 }
 header .banner h1 a {
     color: #3A4145;
+}
+header .banner h1 a:hover {
+    color: #23527c;
 }
 header .banner h2 {
     color: #7b8993;
@@ -419,5 +413,8 @@ footer a {
     }
     .social .tag {
         display: none
+    }
+    .box {
+        width: 90%;
     }
 }

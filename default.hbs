@@ -17,7 +17,25 @@
 
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{@blog.logo}}">
     <link rel="shortcut icon" href="{{@blog.logo}}">
-    
+    <style>
+    header {
+    position: relative;
+    margin: 20px;
+    max-width: 1140px;   
+    background: rgba(52, 164, 202, 0.66);
+    background: -webkit-linear-gradient(-45deg, rgba(52, 164, 202, 0.66) 0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent), url(@blog.cover);
+    background: -moz-linear-gradient(-45deg, rgba(52, 164, 202, 0.66)0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent), url(@blog.cover);
+    background: -o-linear-gradient(-45deg, rgba(52, 164, 202, 0.66) 0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent), url(@blog.cover);
+    background: linear-gradient(-45deg, rgba(52, 164, 202, 0.66) 0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent), url(@blog.cover);
+	background-size: cover, cover;
+	background-position: center, center;
+	height: 60vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+    </style>
     {{ghost_head}}
 
 </head>
