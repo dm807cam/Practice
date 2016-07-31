@@ -10,69 +10,75 @@
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}">
 
-    <link rel ="stylesheet" href="{{asset "css/style.css"}}">
-    <link rel ="stylesheet" href="{{asset "css/subbscribe.css"}}">
+    <link rel="stylesheet" href="{{asset "css/style.css"}}">
+    <link rel="stylesheet" href="{{asset "css/subbscribe.css"}}">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700">
 
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{@blog.logo}}">
-    <link rel="shortcut icon" href="{{@blog.logo}}">
-    {{#is "home"}}
+    <link rel="shortcut icon" href="{{@blog.logo}}"> {{#is "home"}}
     <style>
-    header {
-    margin: 20px auto;
-    border-radius :2px;  
-    padding-bottom: 20px;    
-    max-width: 80%;   
-    background: rgba(52, 164, 202, 0.66);
-    background: -webkit-linear-gradient(-45deg, rgba(52, 164, 202, 0.66) 0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent), url({{@blog.cover}});
-    background: -moz-linear-gradient(-45deg, rgba(52, 164, 202, 0.66)0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent), url({{@blog.cover}});
-    background: -o-linear-gradient(-45deg, rgba(52, 164, 202, 0.66) 0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent), url({{@blog.cover}});
-    background: linear-gradient(-45deg, rgba(52, 164, 202, 0.66) 0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent), url({{@blog.cover}});
-	background-size: cover, cover;
-	background-position: center, center;
-	height: auto;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-    text-align: center;
-    }
-    header #nav li a {
-    color: #fff;
+        header {
+            margin: 20px auto;
+            border-radius: 2px;
+            padding-bottom: 20px;
+            max-width: 80%;
+            background: rgba(52, 164, 202, 0.66);
+            background: -webkit-linear-gradient(-45deg, rgba(52, 164, 202, 0.66) 0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent),
+            url({{@blog.cover}});
+            background: -moz-linear-gradient(-45deg, rgba(52, 164, 202, 0.66)0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent),
+            url({{@blog.cover}});
+            background: -o-linear-gradient(-45deg, rgba(52, 164, 202, 0.66) 0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent),
+            url({{@blog.cover}});
+            background: linear-gradient(-45deg, rgba(52, 164, 202, 0.66) 0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent),
+            url({{@blog.cover}});
+            background-size: cover, cover;
+            background-position: center, center;
+            height: auto;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }  
+        header #nav li a {
+            color: #fff;
         }
-        </style>
-    {{else}}
-        <style>
-    header {
-        position: relative;
-        width: 100%;
-        text-align:center;
-        height: 50px;
-        }
-    header #nav li a, header #nav li a:hover {
-    color: #3A4145;
-        }
-        {{/is}}
+
     </style>
+    {{else}}
+    <style>
+        header {
+            position: relative;
+            width: 100%;
+            text-align: center;
+            height: 50px;
+        }
+        header #nav li a,
+        header #nav li a:hover {
+            color: #3A4145;
+        }
+    {{/is}}
+    </style>
+    
     {{ghost_head}}
 
 </head>
-    
-    <body>
-    
-        {{{body}}}
 
-        <footer>
-            Theme by <a href="https://github.com/Dennis-Mayk/Practice/">Dennis</a> // Logo by <a href="https://thenounproject.com/mockturtle/">Sergey Demushkin</a>
-        </footer>
-    
-        {{ghost_footer}}
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script src="{{asset "js/subbscribe.min.js"}}"></script>
-        <script src="{{asset "js/infinitescroll.min.js"}}"></script>
-        <script src="{{asset "js/index.js"}}"></script>
-    
-    </body>
+<body>
+
+    {{{body}}}
+
+    <footer>
+        Theme by <a href="https://github.com/Dennis-Mayk/Practice/">Dennis</a> // Logo by <a href="https://thenounproject.com/mockturtle/">Sergey Demushkin</a>
+    </footer>
+
+    {{ghost_footer}}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="{{asset "js/subbscribe.min.js"}}"></script>
+    <script src="{{asset "js/infinitescroll.min.js"}}"></script>
+    <script src="{{asset "js/index.js"}}"></script>
+
+</body>
 
 </html>

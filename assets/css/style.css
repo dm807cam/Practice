@@ -150,7 +150,7 @@ header .banner {
     overflow: hidden
 }
 .index-wrapper {
-    margin-top: 6%;
+    margin-top: 60px;
     line-height: 1.75em
 }
 .index-wrapper section#timeline article div.inner,
@@ -345,13 +345,7 @@ header .banner {
 footer,
 footer a {
     font-size: 12px;
-    background: rgba(52, 164, 202, 0.66);
-    background: -webkit-linear-gradient(-45deg, rgba(52, 164, 202, 0.66) 0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent);
-    background: -moz-linear-gradient(-45deg, rgba(52, 164, 202, 0.66)0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent);
-    background: -o-linear-gradient(-45deg, rgba(52, 164, 202, 0.66) 0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent);
-    background: linear-gradient(-45deg, rgba(52, 164, 202, 0.66) 0%, rgba(89, 215, 221, 0.66) 28%, rgba(168, 242, 240, 0.66) 59%, rgba(208, 248, 239, 0.66) 84%, rgba(214, 246, 225, 0.66) 100%, transparent);
-	background-size: cover, cover;
-	background-position: center, center;
+    color: #3A4145;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -373,7 +367,8 @@ footer a {
     .index-wrapper section#timeline:before {
         left: 0
     }
-    .index-wrapper section#timeline article div.inner, header {
+    .index-wrapper section#timeline article div.inner,
+    header {
         width: 90%
     }
     .post-wrapper .cover-img,
@@ -385,7 +380,8 @@ footer a {
     .index-wrapper section#timeline article:nth-child(n) div.inner {
         float: right
     }
-    .index-wrapper section#timeline, header {
+    .index-wrapper section#timeline,
+    header {
         width: 95%;
     }
     .index-wrapper section#timeline article div.inner span.date,
