@@ -400,7 +400,8 @@ footer a {
         font-size: 3.5em
     }
     header .banner h2 {
-        font-size: 1.2em
+        font-size: 1.2em;
+        width: 80%;
     }
     header #nav li a {
     font-size: 12px;
