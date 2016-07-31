@@ -108,8 +108,12 @@ header {
     width: 100%;
     z-index: 2
 }
+header:after {
+    background: #333;
+    opacity: 0.5;
+}
 header .banner {
-    margin: 80px auto
+    margin: 30px auto
 }
 header .banner h1 {
     color: #3A4145;
