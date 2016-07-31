@@ -88,7 +88,7 @@ header #nav li {
 }
 header #nav li a {
     display: block;
-    color: #3A4145;
+    color: #fff;
     font-size: 18px;
     padding: 10px 25px;
     border: 2px solid transparent;
@@ -116,16 +116,16 @@ header .banner {
     margin: 30px auto
 }
 header .banner h1 {
-    color: #3A4145;
+    color: #fff;
     font-family: 'Dancing Script';
     font-size: 4.85em;
     margin-bottom: 1em
 }
 header .banner h1 a {
-    color: #3A4145;
+    color: #fff;
 }
 header .banner h2 {
-    color: #3A4145;
+    color: #fff;
     font-size: 1.5em;
     font-style: italic;
     font-weight: 300;
