@@ -12,12 +12,13 @@ body {
 }
 a {
     background-color: transparent;
-    color: rgba(52, 164, 202, 0.66);
+    color: #f2849e;
     text-decoration: none;
 }
 a:focus,
 a:hover {
-    color: #23527c;
+    color: #c75b9b;
+    transition: transform 0.5s ease, opacity 0.5s ease;
     text-decoration: none;
 }
 p {
