@@ -88,7 +88,7 @@ header #nav li {
 }
 header #nav li a {
     display: block;
-    color: #fff;
+    color: #868696;
     font-size: 18px;
     padding: 10px 25px;
     border: 2px solid transparent;
@@ -99,7 +99,7 @@ header #nav li a {
     transition: all 0.3s;
 }
 header #nav li a:hover {
-    border: 2px solid #fff;
+    border: 2px solid #868696;
     border-radius: 5px;
 }
 header {
@@ -116,16 +116,15 @@ header .banner {
     margin: 30px auto
 }
 header .banner h1 {
-    color: #fff;
-    font-family: 'Dancing Script';
+    color: #3A4145;
     font-size: 4.85em;
     margin-bottom: 1em
 }
 header .banner h1 a {
-    color: #fff;
+    color: #3A4145;
 }
 header .banner h2 {
-    color: #fff;
+    color: #868696;
     font-size: 1.5em;
     font-style: italic;
     font-weight: 300;
