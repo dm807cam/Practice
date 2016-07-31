@@ -109,6 +109,7 @@ header #nav li a:hover {
     border: 2px solid #fff;
     border-radius: 5px;
     color: #fff;
+    background: rgba(0,0,0,0.4);
 }
 header .banner {
     margin: 30px auto
