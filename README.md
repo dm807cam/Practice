@@ -3,7 +3,6 @@
 ![Practice Theme Demo](https://github.com/Dennis-Mayk/Practice/blob/master/preview.gif)
 A clean timeline theme for the Ghost CMS.
 This theme has been build from the ground up with a focus on only the most essential elements to keep the user experience smooth and fast.
-See it in action on my private blog <a href="https://tilligetthere.com" target="_blank">'till I get there</a>.
 
 ##Installation
 Just download an instance of <b>Practice</b> to your ghost's theme folder (you eventually will need to restart ghost).
