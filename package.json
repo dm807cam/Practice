@@ -1,21 +1,6 @@
 {
     "name": "Practice",
-    "version": "1.3",
+    "version": "1.4",
     "description": "Most beautiful timeline theme for Ghost",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Dennis-Mayk/Practice.git"
-    },
-    "keywords": [
-        "ghost",
-        "theme",
-        "blog",
-        "timeline"
-    ],
     "author": "Dennis \"Mayk",
-    "license": "GPL"
 }
