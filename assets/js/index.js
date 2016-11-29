@@ -3,14 +3,9 @@
   Subbscribe
 ===============================================================================
 */
-$('body').subbscribe({
-    list: "MailChimp",
-    url: "//1bytebeta.us9.list-manage.com/subscribe/post?u=1c261e60d8259c0c636801494&id=7fa99bf359",
-    name: "<a href='https://twitter.com/shlominissan' target='_blank'>@shlominissan</a>",
-    thumbnail: "https://s3-ap-southeast-2.amazonaws.com/subbscribe/img/shlomi.jpg",
-    color: "#F2545B",
-    delay: 3,
-});
+if (window.subbscribeOpts) {
+  $('body').subbscribe(window.subbscribeOpts);
+}
 /*
 ===============================================================================
   Infinity Scroll - YEAH!
@@ -25,15 +20,17 @@ $('body').subbscribe({
     });
 /*
 ===============================================================================
-  Disqus 
+  Disqus
 ===============================================================================
 */
-(function () { // DON'T EDIT BELOW THIS LINE
-    var d = document,
-        s = d.createElement('script');
+if (window.disqusSrc) {
+  (function () { // DON'T EDIT BELOW THIS LINE
+      var d = document,
+          s = d.createElement('script');
 
-    s.src = '//tilligettherecom.disqus.com/embed.js';
+      s.src = window.disqusSrc;
 
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+  })();
+}

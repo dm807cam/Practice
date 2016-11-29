@@ -1,6 +1,19 @@
 {
-    "name": "Practice",
-    "version": "1.4",
-    "description": "Most beautiful timeline theme for Ghost",
-    "author": "Dennis \"Mayk",
+  "name": "practice",
+  "version": "1.4.0",
+  "description": "Most beautiful timeline theme for Ghost",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dennis-Mayk/Practice.git"
+  },
+  "keywords": [
+    "ghost",
+    "timeline"
+  ],
+  "author": "Dennis-Mayk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dennis-Mayk/Practice/issues"
+  },
+  "homepage": "https://github.com/Dennis-Mayk/Practice#readme"
 }
