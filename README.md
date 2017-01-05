@@ -36,5 +36,5 @@ I am writing my Master thesis at the moment and am thus quite limited in time - 
 01.07.2016 Release of Practice v.1.0
 </code>
 
-##Contributor - many thanks to you!
+##Contributors - many thanks to you!
 [xdumaine](https://github.com/xdumaine)
