@@ -18,6 +18,9 @@ I am writing my Master thesis at the moment and am thus quite limited in time - 
 
 ##Release notice
 <code>
+05.01.2017 Fix ghost pro errors, make more generic for others to use - by[https://github.com/xdumaine](xdumaine)
+</code><br>
+<code>
 30.07.2016 Practice now uses [infinite scroll](https://github.com/infinite-scroll/infinite-scroll) for pagination v1.4 
 </code><br>
 <code>
@@ -32,3 +35,6 @@ I am writing my Master thesis at the moment and am thus quite limited in time - 
 <code>
 01.07.2016 Release of Practice v.1.0
 </code>
+
+##Contributor - many thanks to you!
+[https://github.com/xdumaine](xdumaine)
