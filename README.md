@@ -11,8 +11,10 @@ Just download an instance of <b>Practice</b> to your ghost's theme folder (you e
 I have designed this theme with as little resources as possible to make it load faster but without compromising on user experience.
 
 ##Improvements
-I will continue working on <b>Practice</b> to increase performance and keep it up to date with newer Ghost versions.
-If you feel like you want to contribute feel free to drop me a message.
+~~I will continue working on to increase performance and keep it up to date with newer Ghost versions.
+If you feel like you want to contribute feel free to drop me a message.~~
+
+I am writing my Master thesis at the moment and am thus quit limited in time - I would love to see this theme get the attention it deserves! Please anybody who is interested feel free to improve and send pull requests!
 
 ##Release notice
 <code>
