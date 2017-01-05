@@ -37,5 +37,4 @@ I am writing my Master thesis at the moment and am thus quite limited in time - 
 </code>
 
 ##Contributors - many thanks to you!
-[xdumaine](https://github.com/xdumaine)
-[Br3nda](https://github.com/Br3nda)
+[xdumaine](https://github.com/xdumaine) | [Br3nda](https://github.com/Br3nda)
