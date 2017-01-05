@@ -14,7 +14,7 @@ I have designed this theme with as little resources as possible to make it load 
 ~~I will continue working on to increase performance and keep it up to date with newer Ghost versions.
 If you feel like you want to contribute feel free to drop me a message.~~
 
-I am writing my Master thesis at the moment and am thus quit limited in time - I would love to see this theme get the attention it deserves! Please anybody who is interested feel free to improve and send pull requests!
+I am writing my Master thesis at the moment and am thus quite limited in time - I would love to see this theme get the attention it deserves! Please, anybody, who is interested feel free to improve and send pull requests!
 
 ##Release notice
 <code>
