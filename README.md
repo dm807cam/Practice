@@ -7,16 +7,12 @@ This theme has been build from the ground up with a focus on only the most essen
 ##Installation
 Just download an instance of <b>Practice</b> to your ghost's theme folder (you eventually will need to restart ghost).
 
-##Build for Speed and User Experience
-I have designed this theme with as little resources as possible to make it load faster but without compromising on user experience.
-
-##Improvements
-~~I will continue working on to increase performance and keep it up to date with newer Ghost versions.
-If you feel like you want to contribute feel free to drop me a message.~~
-
-I am writing my Master thesis at the moment and am thus quite limited in time - I would love to see this theme get the attention it deserves! Please, anybody, who is interested feel free to improve and send pull requests!
+Please select an even number of post per page in th epagination settings in your ghost dashboard for perfect pagination performance.
 
 ##Release notice
+<code>
+08.01.2017 Fixed tag page error + updated stylesheet and preview gif
+</code><br>
 <code>
 05.01.2017 Fix ghost pro errors, make more generic for others to use - by [xdumaine](https://github.com/xdumaine)
 </code><br>
