@@ -1,6 +1,7 @@
 # Practice
 
 ![Practice Theme Demo](https://github.com/Dennis-Mayk/Practice/blob/master/preview.gif)
+<br>
 A clean timeline theme for the Ghost CMS.
 This theme has been build from the ground up with a focus on only the most essential elements to keep the user experience smooth and fast.
 
