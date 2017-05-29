@@ -8,7 +8,7 @@ This theme has been build from the ground up with a focus on only the most essen
 ## Installation
 Just download an instance of <b>Practice</b> to your ghost's theme folder (you eventually will need to restart ghost).
 
-Please select an even number of post per page in th epagination settings in your ghost dashboard for perfect pagination performance.
+Please select an even number of posts per page in the pagination settings in your ghost dashboard for perfect pagination performance.
 
 ## Release notice
 <code>
