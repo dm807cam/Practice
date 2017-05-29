@@ -5,12 +5,12 @@
 A clean timeline theme for the Ghost CMS.
 This theme has been build from the ground up with a focus on only the most essential elements to keep the user experience smooth and fast.
 
-##Installation
+## Installation
 Just download an instance of <b>Practice</b> to your ghost's theme folder (you eventually will need to restart ghost).
 
 Please select an even number of post per page in th epagination settings in your ghost dashboard for perfect pagination performance.
 
-##Release notice
+## Release notice
 <code>
 08.01.2017 Fixed tag page error + updated stylesheet and preview gif
 </code><br>
@@ -33,5 +33,5 @@ Please select an even number of post per page in th epagination settings in your
 01.07.2016 Release of Practice v.1.0
 </code>
 
-##Contributors - many thanks to you!
+## Contributors - many thanks to you!
 [xdumaine](https://github.com/xdumaine) | [Br3nda](https://github.com/Br3nda)
