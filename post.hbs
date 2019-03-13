@@ -7,7 +7,7 @@
 
     <div class="post-wrapper">
         {{#post}} 
-        {{#if image}}<img class="cover-img" src="{{image}}">{{/if}}
+        {{#if feature_image}}<img class="cover-img" src="{{img_url feature_image}}">{{/if}}
         <h1>{{title}}</h1>
         <div class="post-date">{{date format="MMMM DD, YYYY"}}{{#if tags}} // {{tags separator=", " prefix="Tagged in: "}}{{/if}}</div>
 
@@ -15,9 +15,9 @@
         
         {{#is "post"}}
         <div class="box">
-            {{#author}}
-            <img class="author" src="{{image}}"> 
-            {{/author}}
+            {{#primary_author}}
+            <img class="author" src="{{img_url}}"> 
+            {{/primary_author}}
             <div class="more-posts">
                 <h3 class="moreit">More Posts</h3> 
                 {{#prev_post}}
