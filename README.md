@@ -12,6 +12,9 @@ Please select an even number of posts per page in the pagination settings in you
 
 ## Release notice
 <code>
+13.03.2019 Make the theme compatible with Ghost 2.x
+</code><br>
+<code>
 08.01.2017 Fixed tag page error + updated stylesheet and preview gif
 </code><br>
 <code>
@@ -34,4 +37,4 @@ Please select an even number of posts per page in the pagination settings in you
 </code>
 
 ## Contributors - many thanks to you!
-[xdumaine](https://github.com/xdumaine) | [Br3nda](https://github.com/Br3nda)
+[xdumaine](https://github.com/xdumaine) | [Br3nda](https://github.com/Br3nda) | [GeCol1](https://github.com/GeCol1)
